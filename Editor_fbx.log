@@ -1,0 +1,251 @@
+===============================================HereWeStartWithFBXXXXX=======================================================
+[Warning] Unknown command: 
+(Wizard) - Loading URDF file : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/urdf_fbx_minimum/assets_fbx_test/iiwa1_fbx_meshtest.urdf
+[Warning] (UrdfParser) - Locale LC_CTYPE=en_US.UTF-8;LC_NUMERIC=de_DE.UTF-8;LC_TIME=de_DE.UTF-8;LC_COLLATE=en_US.UTF-8;LC_MONETARY=de_DE.UTF-8;LC_MESSAGES=en_US.UTF-8;LC_PAPER=de_DE.UTF-8;LC_NAME=de_DE.UTF-8;LC_ADDRESS=de_DE.UTF-8;LC_TELEPHONE=de_DE.UTF-8;LC_MEASUREMENT=de_DE.UTF-8;LC_IDENTIFICATION=de_DE.UTF-8 might be incompatible with the URDF file content.
+(Wizard) - Wizard skips m_checkUrdfPage since there is no errors in URDF
+(Wizard) - Wizard at page 3
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/iiwa1_2/meshes/default_link_5_36dbc44d_4260_5595_a184_57dd3b9f9993_.azmodel {AEBE557F-B89D-581D-835F-A6C136024F6E}:10c03832 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/iiwa1_2/meshes/link_5.stl 3054715423 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/iiwa1_2/meshes/link_6_s.azmodel {9463BE31-C626-5102-95F9-EBCDA1016785}:10f3ac16 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/iiwa1_2/meshes/link_6_s.stl 2592911477 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/iiwa1_2/meshes/link_5.azmodel {AEBE557F-B89D-581D-835F-A6C136024F6E}:103d5af7 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/iiwa1_2/meshes/link_5.stl 3054715423 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/assets_stl/ee_mallet.azmodel {A1A81101-021E-5F3A-912E-97A6528A0D4A}:108cf585 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/assets_stl/EE_mallet.stl 2916799103 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/striker/collision/default_ee_arm_collision_8e997e79_2ba4_52d2_8fcf_463461693666_.azmodel {ADA175F7-046E-57B2-8EE2-0D680FB4DBD0}:10ec2334 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/striker/collision/EE_arm_collision.stl 2062022705 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/collision/default_link_5_de84d949_e510_5ea3_b26a_27392303e754_.azmodel {D47332DE-0EEE-5CD4-A261-A20E8F4B5F72}:10cea3f0 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/collision/link_5.stl 1650470983 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/striker/visual/default_ee_arm_add1ff89_d929_53ea_b9bd_dab802a837b6_.azmodel {E91E9F00-72F8-503E-B858-BB8209C990BA}:10f357b8 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/striker/visual/EE_arm.stl 1292182647 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/assets_stl/link_3.azmodel {DEC9512F-483E-5D9E-9952-057FABF7446B}:105effc2 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/assets_stl/link_3.stl 376907888 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/visual/link_7_old.azmodel {AA146EC2-7E35-5D68-A348-9727E9C4D33B}:10eadd56 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/visual/link_7_old.stl 399820906 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/collision/default_link_7_old_2e57d8e5_2eb4_528a_95f1_216ab29bc0fb_.azmodel {19877F24-AC4A-51EF-A132-85521A474C37}:1089163c : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/collision/link_7_old.stl 1528051863 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/striker/visual/ee_arm.azmodel {E91E9F00-72F8-503E-B858-BB8209C990BA}:10587f05 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/striker/visual/EE_arm.stl 1292182647 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/iiwa1_2/meshes/default_link_4_s_298afba3_14cd_5062_a08b_c68d5e858f8a_.azmodel {1AC1E5DE-F143-55DD-979D-1F9912FFE5D8}:10d063e5 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/iiwa1_2/meshes/link_4_s.stl 2237497907 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/assets_stl/link_0.azmodel {CF579458-9268-5BF6-A040-61BB64795B4B}:1057ae78 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/assets_stl/link_0.stl 3799637099 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/visual/link_6.azmodel {ECD0DF73-BB38-5DB5-8774-0E88A0FC244B}:10340b4d : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/visual/link_6.stl 1507995701 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/iiwa1_2/meshes/default_link_5_s_135ae167_382a_5139_bad1_ef2a183a963a_.azmodel {A4A15A91-3BBB-5D93-8957-8636EF5FBF3E}:109c8ed0 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/iiwa1_2/meshes/link_5_s.stl 265664125 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/striker/visual/default_ee_mallet_short_0db00215_c1f8_5730_a6d2_1f9eb0d17e6f_.azmodel {4FDD2FB3-D8B2-5144-A8D5-ECF0FDC5CD9D}:107cf204 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/striker/visual/EE_mallet_short.stl 2041403614 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/assets_stl/default_ee_mallet_6e2711e8_3ba4_53f4_bf8b_f92f0e2b86bd_.azmodel {A1A81101-021E-5F3A-912E-97A6528A0D4A}:10a157df : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/assets_stl/EE_mallet.stl 2916799103 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/assets_stl/link_1.azmodel {62969B29-8770-5E66-85F6-9BD8917FF75E}:10509eee : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/assets_stl/link_1.stl 1313858427 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/assets_stl/default_link_6_f24e02f6_7929_5171_a64c_79f5f5a10605_.azmodel {C4DB0E4B-E07C-5E40-86B3-D9DDD14181C9}:102eda55 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/assets_stl/link_6.stl 1507995701 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/iiwa1_2/meshes/link_7-mf-touch-pneumatisch.azmodel {1C1517D6-C72D-5E4D-95E1-6A7BBC283D23}:1017c76b : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/iiwa1_2/meshes/link_7-MF-Touch-pneumatisch.stl 1594615360 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/urdf_fbx_minimum/assets_stl_test/ee_arm.azmodel {C3E80A91-AC81-56D7-A6C4-00447E806A05}:10587f05 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/urdf_fbx_minimum/assets_stl_test/EE_arm.stl 1292182647 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/assets_stl/link_2.azmodel {908EAE1D-875D-5590-95F7-BD7552A1E52C}:1059cf54 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/assets_stl/link_2.stl 2231602130 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/collision/default_link_3_b545b3d2_f8a9_591d_9a1b_8a18586bff8e_.azmodel {61FC0DFE-85F3-5324-970C-BA46004373A8}:106590ec : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/collision/link_3.stl 1278320433 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/assets_stl/default_link_5_7d11cb8b_e589_5790_a369_e0a83fe78d37_.azmodel {276F2ABD-89E6-59A3-8CA0-0B101AA307B6}:109bffb3 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/assets_stl/link_5.stl 3054715423 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/assets_stl/default_link_4_ce4fcde1_c32e_5630_80e0_e09173283159_.azmodel {5D6E9B3E-BCE1-5666-8B2F-9F0D938916E5}:10a1ebaa : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/assets_stl/link_4.stl 2002453265 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/collision/default_link_4_add736be_2fc0_5467_b943_032e38d10616_.azmodel {9253E78D-4A98-5C07-95E3-151481C75264}:10d4fff5 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/collision/link_4.stl 2341078531 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/iiwa1_2/meshes/default_link_0_756660f6_9dad_5b59_84a9_f81e68279e28_.azmodel {4C486DAF-2570-59C3-B2B2-84B99801C8EF}:1049acee : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/iiwa1_2/meshes/link_0.stl 3799637099 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/collision/link_7_old.azmodel {19877F24-AC4A-51EF-A132-85521A474C37}:10eadd56 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/collision/link_7_old.stl 1528051863 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/iiwa1_2/meshes/link_0_s.azmodel {F0AC8482-66E7-545F-B96B-AC0A51692E8B}:107ed0a4 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/iiwa1_2/meshes/link_0_s.stl 3796837835 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/iiwa1_2/meshes/link_3_s.azmodel {9305B4DA-E477-544A-8790-AA3E1C6705B4}:10386efd : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/iiwa1_2/meshes/link_3_s.stl 1661840073 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/collision/default_link_2_cb9d3c83_3e91_52cc_a33e_cb30938ccf79_.azmodel {860C6FC0-2116-57F4-B9F7-5C7C521BC2BC}:10184694 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/collision/link_2.stl 4216647473 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/iiwa1_2/meshes/link_2.azmodel {9A68E4E6-F738-51D3-9ACA-D78B81DF69BF}:1059cf54 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/iiwa1_2/meshes/link_2.stl 2231602130 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/assets_stl/default_link_3_e3b605ef_467b_5b7f_976a_81926ed9179b_.azmodel {DEC9512F-483E-5D9E-9952-057FABF7446B}:10b8ec30 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/assets_stl/link_3.stl 376907888 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/collision/link_4.azmodel {9253E78D-4A98-5C07-95E3-151481C75264}:103a6a61 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/collision/link_4.stl 2341078531 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/assets_stl/default_ee_arm_f558ef5c_e0f3_51da_b67a_7e8c5b28a5d8_.azmodel {325453A1-978C-5D6E-A169-EE9AB185BA6C}:107e1ccc : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/assets_stl/EE_arm.stl 1292182647 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/iiwa1_2/meshes/link_1_s.azmodel {5B3D6E2D-E5B8-572E-B609-B878A695A61D}:10bcba93 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/iiwa1_2/meshes/link_1_s.stl 3650362174 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/collision/link_6.azmodel {2EFA3D56-59BC-5B7D-9DEF-2162BA25DD89}:10340b4d : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/collision/link_6.stl 21046590 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/striker/visual/ee_mallet_short.azmodel {4FDD2FB3-D8B2-5144-A8D5-ECF0FDC5CD9D}:103bcea5 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/striker/visual/EE_mallet_short.stl 2041403614 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/assets_stl/default_link_7_6cf52e3f_b61b_5855_920a_f0a18ac0703b_.azmodel {220E02BE-1F15-57A2-9511-C6FC5EE37720}:1042a4dc : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/assets_stl/link_7.stl 2262343661 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/assets_stl/link_7.azmodel {220E02BE-1F15-57A2-9511-C6FC5EE37720}:10333bdb : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/assets_stl/link_7.stl 2262343661 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/iiwa1_2/meshes/link_7-mf-touch-pneumatisch_s.azmodel {AFE92088-60EB-5DD8-BB33-C2CC3CE67E2B}:10ff528a : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/iiwa1_2/meshes/link_7-MF-Touch-pneumatisch_s.stl 798032453 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/iiwa1_2/meshes/default_link_3_s_6ce77316_a106_525c_9f91_91e011b48d0e_.azmodel {9305B4DA-E477-544A-8790-AA3E1C6705B4}:100a1a87 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/iiwa1_2/meshes/link_3_s.stl 1661840073 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/visual/link_2.azmodel {3CD9EC26-F318-5B89-B26F-1A35631E1DC2}:1059cf54 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/visual/link_2.stl 2231602130 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/visual/link_3.azmodel {EA5FF43E-D1EB-58F6-A2B0-F0DFB96A98DE}:105effc2 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/visual/link_3.stl 376907888 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/collision/default_link_1_e1170670_1f3e_5aa8_92e9_944aba72ad4d_.azmodel {0AAFEC86-392E-535C-916F-45539D24FF59}:10ad7069 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/collision/link_1.stl 2756666873 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/assets_stl/default_link_1_50282015_a489_5689_9313_23660cb7b556_.azmodel {62969B29-8770-5E66-85F6-9BD8917FF75E}:10bb2383 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/assets_stl/link_1.stl 1313858427 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/assets_stl/default_link_0_5e7f1771_b894_5f30_97b0_6fd999f35054_.azmodel {CF579458-9268-5BF6-A040-61BB64795B4B}:1029e1e3 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/assets_stl/link_0.stl 3799637099 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/iiwa1_2/meshes/link_5_s.azmodel {A4A15A91-3BBB-5D93-8957-8636EF5FBF3E}:10b5124f : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/iiwa1_2/meshes/link_5_s.stl 265664125 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/urdf_fbx_minimum/assets_stl_test/default_ee_arm_7f33174e_724c_5f70_bc7f_bc3672fe6dad_.azmodel {C3E80A91-AC81-56D7-A6C4-00447E806A05}:1062f010 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/urdf_fbx_minimum/assets_stl_test/EE_arm.stl 1292182647 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/visual/default_link_1_7f0ef5f8_dc24_59f2_aac4_aff4cdd7ec22_.azmodel {1ECE7EAF-6E65-56D6-AF3A-85F13AA43CDA}:10900d7e : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/visual/link_1.stl 1313858427 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/collision/link_5.azmodel {D47332DE-0EEE-5CD4-A261-A20E8F4B5F72}:103d5af7 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/collision/link_5.stl 1650470983 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/visual/link_7.azmodel {4D14B24F-5CFF-50D1-8F50-0ABB73767F6B}:10333bdb : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/visual/link_7.stl 2262343661 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/striker/collision/ee_mallet_short_collision.azmodel {61DAA0E1-DBB0-55D6-81C7-5CC98F482113}:10bd63f9 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/striker/collision/EE_mallet_short_collision.stl 1614699278 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/striker/collision/default_ee_mallet_collision_d5f85ad6_5e81_5457_9261_cff1a966a27d_.azmodel {AE240B5B-A0A2-5DF5-B0EE-9797DC11AAA6}:1035e7b8 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/striker/collision/EE_mallet_collision.stl 1422730888 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/assets_stl/ee_arm.azmodel {325453A1-978C-5D6E-A169-EE9AB185BA6C}:10587f05 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/assets_stl/EE_arm.stl 1292182647 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/iiwa1_2/meshes/default_link_0_s_8797b002_6364_56ff_843f_b264523d9d14_.azmodel {F0AC8482-66E7-545F-B96B-AC0A51692E8B}:10e6b1b9 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/iiwa1_2/meshes/link_0_s.stl 3796837835 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/iiwa1_2/meshes/default_link_2_65ea6dd9_1109_5c9a_9f4b_43ca787c3faf_.azmodel {9A68E4E6-F738-51D3-9ACA-D78B81DF69BF}:10c5aa37 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/iiwa1_2/meshes/link_2.stl 2231602130 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/assets_stl/link_6.azmodel {C4DB0E4B-E07C-5E40-86B3-D9DDD14181C9}:10340b4d : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/assets_stl/link_6.stl 1507995701 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/striker/visual/ee_mallet.azmodel {FD131DF7-60AC-526C-B7AE-7BA0E3EA6D71}:108cf585 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/striker/visual/EE_mallet.stl 940572472 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/visual/default_link_7_a89d44a6_f5bd_5be1_8509_cdf7a6c428ea_.azmodel {4D14B24F-5CFF-50D1-8F50-0ABB73767F6B}:108c8ff3 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/visual/link_7.stl 2262343661 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/visual/default_link_6_6279143e_8e89_53f6_b4e9_9023f30de93e_.azmodel {ECD0DF73-BB38-5DB5-8774-0E88A0FC244B}:10b83979 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/visual/link_6.stl 1507995701 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/iiwa1_2/meshes/default_link_3_330bf9c1_982c_5439_91b5_b784e4620c7e_.azmodel {88F373C4-C26F-5AB6-ACD3-576BC4FB54FA}:10ae4451 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/iiwa1_2/meshes/link_3.stl 376907888 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/visual/default_link_3_f3d69d58_8938_5de9_8fe9_fdfae75441d5_.azmodel {EA5FF43E-D1EB-58F6-A2B0-F0DFB96A98DE}:10bb26f2 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/visual/link_3.stl 376907888 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/assets_stl/link_5.azmodel {276F2ABD-89E6-59A3-8CA0-0B101AA307B6}:103d5af7 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/assets_stl/link_5.stl 3054715423 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/collision/default_link_7_22bf3ea4_d7fe_5775_a51e_978813bc076b_.azmodel {CBB6133F-3F0E-5E29-8351-CC2BC23AA6B5}:10fb8d92 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/collision/link_7.stl 3861841092 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/assets_stl/ee_arm_new_uv.azmodel {8D487887-B58E-5736-8F6A-ACA29D6C3CB7}:10168b19 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/assets_stl/EE_arm_new_uv.stl 1623492718 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/visual/default_link_2_74ff2252_8389_5f53_9f92_d4a90ed3768b_.azmodel {3CD9EC26-F318-5B89-B26F-1A35631E1DC2}:10bc8049 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/visual/link_2.stl 2231602130 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/iiwa1_2/meshes/default_link_6_bb4a21d8_d5e6_57c1_8829_c0e53683957f_.azmodel {78D0F51D-C6E0-5003-8243-7CFD3B921F97}:103660e6 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/iiwa1_2/meshes/link_6.stl 1507995701 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/iiwa1_2/meshes/default_link_7_mf_touch_pneumatisch_s_cf7f4907_61c9_5abf_b65d_86b428fe7f0a_.azmodel {AFE92088-60EB-5DD8-BB33-C2CC3CE67E2B}:10b53896 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/iiwa1_2/meshes/link_7-MF-Touch-pneumatisch_s.stl 798032453 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/assets_stl/link_4.azmodel {5D6E9B3E-BCE1-5666-8B2F-9F0D938916E5}:103a6a61 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/assets_stl/link_4.stl 2002453265 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/iiwa1_2/meshes/link_4.azmodel {911147EA-475C-52E1-8618-EEBFF8BE9394}:103a6a61 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/iiwa1_2/meshes/link_4.stl 2002453265 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/visual/link_1.azmodel {1ECE7EAF-6E65-56D6-AF3A-85F13AA43CDA}:10509eee : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/visual/link_1.stl 1313858427 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/iiwa1_2/meshes/link_6.azmodel {78D0F51D-C6E0-5003-8243-7CFD3B921F97}:10340b4d : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/iiwa1_2/meshes/link_6.stl 1507995701 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/iiwa1_2/meshes/default_link_7_mf_touch_pneumatisch_09633438_8552_5f55_b3b0_044b8d06c188_.azmodel {1C1517D6-C72D-5E4D-95E1-6A7BBC283D23}:1033f872 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/iiwa1_2/meshes/link_7-MF-Touch-pneumatisch.stl 1594615360 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/iiwa1_2/meshes/default_link_2_s_53fae35a_64cc_56cf_b2b1_302b50a32c46_.azmodel {33466423-EEDD-5B27-934E-50DB0C636A82}:10978077 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/iiwa1_2/meshes/link_2_s.stl 3865832914 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/collision/default_link_6_084a0f1c_16ac_5798_a47d_23168bd51319_.azmodel {2EFA3D56-59BC-5B7D-9DEF-2162BA25DD89}:106d9c73 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/collision/link_6.stl 21046590 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/collision/link_2.azmodel {860C6FC0-2116-57F4-B9F7-5C7C521BC2BC}:1059cf54 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/collision/link_2.stl 4216647473 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/collision/default_link_0_0bfb69b2_6de7_5af4_b1a8_149b837b41c6_.azmodel {C40C3700-F2BF-596C-BF7B-785C1E143D9F}:10ae9a62 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/collision/link_0.stl 3799637099 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/iiwa1_2/meshes/default_link_1_dcde2c52_5b27_5604_8146_80f50dfdae6f_.azmodel {661B03D4-0AA1-5D16-AF96-44BFAEF1DC00}:104d6433 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/iiwa1_2/meshes/link_1.stl 1313858427 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/striker/collision/ee_arm_collision.azmodel {ADA175F7-046E-57B2-8EE2-0D680FB4DBD0}:100ab29d : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/striker/collision/EE_arm_collision.stl 2062022705 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/visual/default_link_4_edf8ea83_e431_5b55_bcd8_e18576bb9b99_.azmodel {57DBC226-CC54-5B4E-856C-26FF6B99FD73}:10cab489 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/visual/link_4.stl 2002453265 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/iiwa1_2/meshes/link_4_s.azmodel {1AC1E5DE-F143-55DD-979D-1F9912FFE5D8}:10777878 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/iiwa1_2/meshes/link_4_s.stl 2237497907 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/visual/link_0.azmodel {98A77D8F-1C44-5D62-8D74-30E1971902DB}:1057ae78 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/visual/link_0.stl 3799637099 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/collision/link_7.azmodel {CBB6133F-3F0E-5E29-8351-CC2BC23AA6B5}:10333bdb : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/collision/link_7.stl 3861841092 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/iiwa1_2/meshes/link_1.azmodel {661B03D4-0AA1-5D16-AF96-44BFAEF1DC00}:10509eee : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/iiwa1_2/meshes/link_1.stl 1313858427 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/iiwa1_2/meshes/link_2_s.azmodel {33466423-EEDD-5B27-934E-50DB0C636A82}:10fa04ca : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/iiwa1_2/meshes/link_2_s.stl 3865832914 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/assets_stl/default_ee_arm_new_uv_00d05fba_556e_5713_ba34_e281a341d782_.azmodel {8D487887-B58E-5736-8F6A-ACA29D6C3CB7}:1044389e : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/assets_stl/EE_arm_new_uv.stl 1623492718 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/striker/collision/ee_mallet_collision.azmodel {AE240B5B-A0A2-5DF5-B0EE-9797DC11AAA6}:10d444ca : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/striker/collision/EE_mallet_collision.stl 1422730888 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/collision/link_1.azmodel {0AAFEC86-392E-535C-916F-45539D24FF59}:10509eee : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/collision/link_1.stl 2756666873 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/iiwa1_2/meshes/default_link_1_s_2832b12d_badd_50a6_9a3b_1ea0b3e8dd3f_.azmodel {5B3D6E2D-E5B8-572E-B609-B878A695A61D}:10c72cfd : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/iiwa1_2/meshes/link_1_s.stl 3650362174 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/visual/default_link_0_110e1bbf_95c9_5049_b851_e9ad39aabe11_.azmodel {98A77D8F-1C44-5D62-8D74-30E1971902DB}:108640b0 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/visual/link_0.stl 3799637099 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/striker/collision/default_ee_mallet_short_collision_b80b2615_b66f_5a60_8974_37167efca695_.azmodel {61DAA0E1-DBB0-55D6-81C7-5CC98F482113}:10d938fd : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/striker/collision/EE_mallet_short_collision.stl 1614699278 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/assets_stl/default_link_2_a86dc0ba_b5ba_500d_8c29_ce6b08349a31_.azmodel {908EAE1D-875D-5590-95F7-BD7552A1E52C}:103f3ce3 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/assets_stl/link_2.stl 2231602130 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/iiwa1_2/meshes/default_link_4_656c4ce0_d3a2_59b4_9181_382a6a8618c6_.azmodel {911147EA-475C-52E1-8618-EEBFF8BE9394}:10ce29b2 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/iiwa1_2/meshes/link_4.stl 2002453265 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/collision/link_3.azmodel {61FC0DFE-85F3-5324-970C-BA46004373A8}:105effc2 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/collision/link_3.stl 1278320433 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/iiwa1_2/meshes/link_0.azmodel {4C486DAF-2570-59C3-B2B2-84B99801C8EF}:1057ae78 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/iiwa1_2/meshes/link_0.stl 3799637099 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/striker/visual/default_ee_mallet_6f30ef28_3ac8_5120_a273_b36569cf739f_.azmodel {FD131DF7-60AC-526C-B7AE-7BA0E3EA6D71}:105a8921 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/striker/visual/EE_mallet.stl 940572472 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/visual/link_5.azmodel {73394907-1887-5CAE-BA88-B36C687D6C03}:103d5af7 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/visual/link_5.stl 3054715423 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/collision/link_0.azmodel {C40C3700-F2BF-596C-BF7B-785C1E143D9F}:1057ae78 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/collision/link_0.stl 3799637099 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/visual/link_4.azmodel {57DBC226-CC54-5B4E-856C-26FF6B99FD73}:103a6a61 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/visual/link_4.stl 2002453265 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/iiwa1_2/meshes/link_3.azmodel {88F373C4-C26F-5AB6-ACD3-576BC4FB54FA}:105effc2 : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/iiwa1_2/meshes/link_3.stl 376907888 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/visual/default_link_5_3b6b5f1a_2f5e_51f7_935f_176616088639_.azmodel {73394907-1887-5CAE-BA88-B36C687D6C03}:103e49be : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/visual/link_5.stl 3054715423 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/iiwa1_2/meshes/default_link_6_s_b6d6e50e_7c18_52da_b2c4_82d3ac9a5e95_.azmodel {9463BE31-C626-5102-95F9-EBCDA1016785}:1023891d : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/iiwa1_2/meshes/link_6_s.stl 2592911477 
+
+(RobotImporterWidget) - m_relativePath assets/airhockey_robot/meshes/visual/default_link_7_old_6b3a0110_ba52_5c48_80a4_823967ef2dc8_.azmodel {AA146EC2-7E35-5D68-A348-9727E9C4D33B}:10c2aeff : /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/AirHockey_Robot/meshes/visual/link_7_old.stl 399820906 
+
+(Wizard) - Wizard at page 4
+(CheckCyclicalDependency) - CheckCyclicalDependency Assets/Importer/iiwa1_fbxtest.prefab
+(CheckCyclicalDependency) - focus_prefab_filename Levels/FBX_TEST/FBX_TEST.prefab
+(CollidersMaker) - Waiting for asset load
+
+[Error] (AssetManager) - BlockUntilLoadComplete must be called after an asset has been queued for load.  Asset materials/wheel_material.physicsmaterial ({6591FAEC-8F36-534D-9197-7F4DE940F58A}:1) is not queued for load
+(Error) - Provided path doesn't contain an extension supported by the SceneAPI.
+[Error] (CollidersMaker) - Error loading collider. Invalid scene: , URDF path: EE_arm.fbx
+(CollidersMaker) - Waiting for URDF assets
+
+(CollidersMaker) - All URDF assets are ready!
+
+(CreateEntity) - Processing entity id: [5370371089352662723] with name: F_striker_tip
+
+(AddVisual) - Processing visual for entity id:[5370371089352662723]
+
+(CreateEntity) - Processing entity id: [6145967124501116881] with name: F_striker_tip_visual
+
+(AddVisual) - Setting color for material Grey
+
+(CollidersMaker) - Processing collisions for entity id:[5370371089352662723]
+
+(CollidersMaker) - Adding mesh collider to [5370371089352662723]
+
+(CollidersMaker) - GetMeshProductPathFromSourcePath: 
+[Error] (CollidersMaker) - Could not find asset 
+[Error] (CollidersMaker) - Could not find pxmodel for 
+(AddInertial) - Processing inertial for entity id: [5370371089352662723]
+
+(CreatePrefabFromURDF) - Link with name F_striker_tip was created as: [5370371089352662723]
+(URDF Importer) - Spawner not found - creating entity in (0,0,0)
+(CreatePrefabFromURDF) - GetTemplateIdFromFilePath  /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/Importer/iiwa1_fbxtest.prefab -> -1 
+
+[Warning] (Prefab) - This function is marked for deprecation. Please use CreatePrefabAndSaveToDisk instead.
+(CreatePrefabFromURDF) - Successfully created prefab /home/haoyin/O3DE/Projects/O3DE_IIWAS_MESHES/Assets/Importer/iiwa1_fbxtest.prefab
+
+(page) - QDialog::finished : 1
