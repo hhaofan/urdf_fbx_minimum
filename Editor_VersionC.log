@@ -1,0 +1,246 @@
+<09:53:16> BackupNameAttachment=" Build(1) 20 Jan 23 (09 53 16)"  -- used by backup system
+<09:53:16> Log Started at Fri 20 Jan 2023 09:53:16 AM CET
+<09:53:16> Built on Jan 19 2023 11:36:26
+<09:53:16> Running 64 bit Linux version
+<09:53:16> FileVersion: 1.0.0.1
+<09:53:16> ProductVersion: 1.0.0.1
+<09:53:16> Using CLANG C++ Standard Library implementation
+<09:53:16> Project Path: /home/carloscarbone/O3DE/Projects/DomainGenerator_22
+
+<09:53:16> Project Name: DomainGenerator_22
+
+<09:53:16> (System) - > cl_assetLoadWarningEnable : true
+
+<09:53:16> (System) - > cl_assetLoadWarningMsThreshold : 100
+
+<09:53:16> Loading Config file game.cfg (/home/carloscarbone/O3DE/Projects/DomainGenerator_22/Cache/linux/game.cfg)
+<09:53:16> creating CVarGroups from directory 'Config/CVarGroups' ...
+<09:53:16> Loading Config file user.cfg (/home/carloscarbone/O3DE/Projects/DomainGenerator_22/Cache/linux/config/user.cfg)
+<09:53:16> GameName: DomainGenerator_22
+<09:53:16> BuildTime: Jan 19 2023 11:36:26
+<09:53:16> [Warning] (System) - <Audio>: Running without any AudioSystem!
+<09:53:16> Initializing additional systems
+
+<09:53:16> Using FreeType 2.11.1
+<09:53:16> Current Language: English (United States)
+<09:53:16> Linux
+<09:53:16> Local time is 09:53:16, system running for 5811 minutes
+<09:53:16> 63993MB phys. memory installed, 718MB paging available
+<09:53:16> Current display mode is 1920x1200x24, eDP-1-1
+<09:53:16> (ROS2CameraSensorComponent) - LoadPassTemplateMappings
+
+<09:53:16> [Warning] (PassLibrary) - Pass template alias [PipelineRenderToTextureROSColor] is different than its name [PipelineRenderToTextureROSDepth]
+<09:53:16> (RPI system) - System assets initialized
+
+<09:53:16> [Error] (PassFactory) - FAILED TO CREATE PASS [DiffuseProbeGridUpdatePass]. Could not find pass template [DiffuseProbeGridUpdatePassTemplate]
+<09:53:16> (System) - > r_enablePerMeshShaderOptionFlags : false
+
+<09:53:16> project_path = /home/carloscarbone/O3DE/Projects/DomainGenerator_22
+<09:53:16> sys_localization_folder = Localization
+<09:53:16> Console Variable r_MeasureOverdraw not declared
+<09:53:16> [Plugin Manager] Loading plugins...
+<09:53:16> [Plugin Manager] Successfully loaded plugin 'ComponentEntityEditor', version '1' (GUID: {11B0041C-BC34-4827-A3E4-AB7458FFF678})
+<09:53:16> FFMPEG plugin: CreatePluginInstance
+<09:53:16> FFMPEG plugin: Failed to execute FFmpeg. Please install FFmpeg.
+<09:53:16> [Plugin Manager] Successfully loaded plugin 'FFMPEG Writer', version '1' (GUID: {D2A3A44A-00FF-4341-90BA-89A473F44A65})
+<09:53:16> [Plugin Manager] Successfully loaded plugin 'ProjectSettingsTool', version '1' (GUID: {C5B96A1A-036A-46F9-B7F0-5DF93494F988})
+<09:53:16> (Module) - Attempting to load module:/home/carloscarbone/O3DE/Projects/DomainGenerator_22/build/linux/bin/profile/libSceneUI.so
+
+<09:53:16> (Module) - Success!
+
+<09:53:16> [Plugin Manager] Successfully loaded plugin 'QtAssetImporter', version '1' (GUID: {0abf28f2-ef56-4ac9-a459-175abb40d649})
+<09:53:16> (EMotionFX) - -----------------------------------------------
+
+<09:53:16> (EMotionFX) - EMotion Studio Core - Information
+
+<09:53:16> (EMotionFX) - -----------------------------------------------
+
+<09:53:16> (EMotionFX) - Compilation date: Jan 19 2023
+
+<09:53:16> (EMotionFX) - -----------------------------------------------
+
+<09:53:16> (EMotionFX) - EMotion Studio initialized...
+
+<09:53:16> (Vulkan) - Resizing swapchain from (100, 30) to (200, 60).
+<09:53:16> (Vulkan) - Swapchain created. Width: 200, Height: 60.
+
+<09:53:16> (Swapchain) - Obtained presentable images.
+
+<09:53:16> (Swapchain) - Acquired the first image.
+
+<09:53:16> (System) - > r_enablePerMeshShaderOptionFlags : false
+
+<09:53:16> [Warning] (ActionManager) - Did not find menu with menuId EditMenu
+<09:53:16> Document created
+<09:53:16> Adding '*$tmp*' to ignore masks for changed files.
+<09:53:16> (python) - Py_GetVersion=3.10.5 (tags/v3.10.5-dirty:f377153, Aug 16 2022, 14:56:18) [GCC 9.4.0] 
+
+<09:53:16> (python) - Py_GetPath=(null) 
+
+<09:53:16> (python) - Py_GetExecPrefix=(null) 
+
+<09:53:16> (python) - Py_GetProgramFullPath=(null) 
+
+<09:53:17> Engine initialized, took 5.59s.
+<09:53:17> [CONSOLE] Executing console command 'exec editor_autoexec.cfg'
+<09:53:17> Executing console batch file (try game,config,root): "@products@/editor_autoexec.cfg" not found!
+<09:53:17> [CONSOLE] Executing console command 'exec editor.cfg'
+<09:53:17> Executing console batch file (try game,config,root): "editor.cfg" found in game/ ...
+<09:53:17> [Warning] Unknown command: sys_PakWarnOnPakAccessFailures
+<09:53:17> cl_assetLoadWarningEnable=true [  ]
+<09:53:17> cl_assetLoadWarningMsThreshold=100 [  ]
+<09:53:17> [CONSOLE] Executing console command 'exec user.cfg'
+<09:53:17> Executing console batch file (try game,config,root): "user.cfg" found in game/config/ ...
+<09:53:17> (RHI) - ****************************************************************
+
+<09:53:17> (RHI) -                     Registering vulkan RHI                          
+
+<09:53:17> (RHI) - ****************************************************************
+
+<09:53:17> [Error] (PassFactory) - FAILED TO CREATE PASS [DiffuseProbeGridUpdatePass]. Could not find pass template [DiffuseProbeGridUpdatePassTemplate]
+<09:53:17> [Warning] (AssetDatabase) - Load time threshold exceeded: LoadAssetData call for materials/types/standardpbr.azmaterialtype took 4871 ms to load 453804 bytes (  0.0000 KB/s)
+<09:53:17> [Warning] (AssetDatabase) - Load time threshold exceeded: LoadAssetData call for translationassets/types/ondemandreflectedtypes.names took 116 ms to load 4010690 bytes (  0.0000 KB/s)
+<09:53:24> Opening level levels/testlevel/testlevel.spawnable
+<09:53:24> Loading from /home/carloscarbone/O3DE/Projects/DomainGenerator_22/Levels/testLevel/testLevel.prefab...
+<09:53:24> ---- Start: Game Engine level load
+<09:53:24> Loading map '/home/carloscarbone/O3DE/Projects/DomainGenerator_22/Levels/testLevel' into engine...
+<09:53:24> ---- End: Game Engine level load (0 seconds)
+<09:53:24> ---- Start: Post Load
+<09:53:24> ---- End: Post Load (0 seconds)
+<09:53:24> [LevelLoadTime] Level /home/carloscarbone/O3DE/Projects/DomainGenerator_22/Levels/testLevel loaded in 0 seconds
+<09:53:24> (Vulkan) - Resizing swapchain from (1704, 1516) to (200, 60).
+<09:53:24> (Vulkan) - Swapchain created. Width: 200, Height: 60.
+
+<09:53:24> (Swapchain) - Obtained presentable images.
+
+<09:53:24> (Swapchain) - Acquired the first image.
+
+<09:53:24> (Vulkan) - Swapchain created. Width: 1704, Height: 1516.
+
+<09:53:24> (Swapchain) - Obtained presentable images.
+
+<09:53:24> (Swapchain) - Acquired the first image.
+
+<09:53:24> -----------------------------------------------------------
+<09:53:24> Successfully opened document /home/carloscarbone/O3DE/Projects/DomainGenerator_22/Levels/testLevel/testLevel.prefab
+<09:53:24> Level loading time: 0.02 seconds
+<09:53:24> -----------------------------------------------------------
+<09:53:24> [Warning] (Model) - ray intersection against a model that is still creating spatial information
+<09:53:24> (Vulkan) - Swapchain created. Width: 1704, Height: 1510.
+
+<09:53:24> (Swapchain) - Obtained presentable images.
+
+<09:53:24> (Swapchain) - Acquired the first image.
+
+<09:53:27> (Wizard) - Wizard at page 0
+<09:53:47> (Wizard) - Wizard at page 1
+<09:54:06> (Wizard) - Wizard at page 0
+<09:55:17> (Wizard) - Wizard at page 1
+<09:56:03> (Wizard) - Loading URDF file : /home/carloscarbone/git/urdf_fbx_minimum/iiwa1_fbx.urdf
+<09:56:03> (UrdfParser) - link 'F_striker_tip' material 'Grey' undefined.
+
+<09:56:03> (UrdfParser) - link 'F_striker_tip' material 'Grey' undefined.
+
+<09:56:03> (Wizard) - Wizard skips m_checkUrdfPage since there is no errors in URDF
+<09:56:03> (Wizard) - Wizard at page 3
+<09:57:01> (Wizard) - Wizard at page 4
+<09:57:31> (Wizard) - Wizard at page -1
+<09:57:31> (page) - QDialog::finished : 0
+<10:01:27> (Wizard) - Wizard at page 0
+<10:01:29> (Wizard) - Wizard at page 1
+<10:01:44> (Wizard) - Loading URDF file : /home/carloscarbone/git/urdf_fbx_minimum/iiwa1_fbx.urdf
+<10:01:44> (UrdfParser) - link 'F_striker_tip' material 'Grey' undefined.
+
+<10:01:44> (UrdfParser) - link 'F_striker_tip' material 'Grey' undefined.
+
+<10:01:44> (Wizard) - Wizard skips m_checkUrdfPage since there is no errors in URDF
+<10:01:44> (Wizard) - Wizard at page 3
+<10:01:45> (Wizard) - Wizard at page 4
+<10:01:47> (CheckCyclicalDependency) - CheckCyclicalDependency Assets/Importer/iiwa1.prefab
+
+<10:01:47> [Warning] (CollidersMaker) - Cannot load wheel material
+<10:01:47> (Error) - Provided path doesn't contain an extension supported by the SceneAPI.
+<10:01:47> [Error] (CollidersMaker) - Error loading collider. Invalid scene: , URDF path: EE_arm.fbx
+<10:01:47> (CollidersMaker) - Waiting for URDF assets
+
+<10:01:47> (CollidersMaker) - All URDF assets are ready!
+
+<10:01:47> (CreateEntity) - Processing entity id: [15357424069878079669] with name: F_striker_tip
+
+<10:01:47> (AddVisual) - Processing visual for entity id:[15357424069878079669]
+
+<10:01:47> (CreateEntity) - Processing entity id: [14487308272135800721] with name: F_striker_tip_visual
+
+<10:01:47> (CollidersMaker) - Processing collisions for entity id:[15357424069878079669]
+
+<10:01:47> [Error] (Entity) - Entity 'F_striker_tip' [15357424069878079669] cannot be activated. No descriptor registered for Component class 'EditorColliderComponent'.
+<10:01:47> (CollidersMaker) - Adding mesh collider to [15357424069878079669]
+
+<10:01:47> (CollidersMaker) - GetMeshProductPathFromSourcePath: 
+
+<10:01:47> [Error] (CollidersMaker) - Could not find asset 
+<10:01:47> [Error] (CollidersMaker) - Could not find pxmodel for 
+<10:01:47> (System) - 
+==================================================================
+
+<10:01:47> (System) - Trace::Assert
+ /home/carloscarbone/o3de/Code/Framework/AzCore/AzCore/Component/Entity.cpp(234): (140287209911488) 'virtual void AZ::Entity::Deactivate()'
+
+<10:01:47> (System) - Component should be in Active state to be Deactivated!
+
+<10:01:47> (System) - ------------------------------------------------
+
+<10:01:47> (System) -  -- error: unable to obtain symbol name for this frame
+
+<10:01:47> (System) -  -- error: unable to obtain symbol name for this frame
+
+<10:01:47> (System) -  -- error: unable to obtain symbol name for this frame
+
+<10:01:47> (System) -  -- error: unable to obtain symbol name for this frame
+
+<10:01:47> (System) -  -- error: unable to obtain symbol name for this frame
+
+<10:01:47> (System) -  -- error: unable to obtain symbol name for this frame
+
+<10:01:47> (System) -  -- error: unable to obtain symbol name for this frame
+
+<10:01:47> (System) -  -- error: unable to obtain symbol name for this frame
+
+<10:01:47> (System) - QObject::event(QEvent*) (+0x2b9) [0x7f972a628699]
+
+<10:01:47> (System) - QWidget::event(QEvent*) (+0x22d) [0x7f971a6e1f7d]
+
+<10:01:47> (System) - QApplicationPrivate::notify_helper(QObject*, QEvent*) (+0x83) [0x7f971a69ee03]
+
+<10:01:47> (System) - QApplication::notify(QObject*, QEvent*) (+0x1a8) [0x7f971a6a7c58]
+
+<10:01:47> (System) - QCoreApplication::notifyInternal2(QObject*, QEvent*) (+0x12a) [0x7f972a5fab0a]
+
+<10:01:47> (System) - QCoreApplicationPrivate::sendPostedEvents(QObject*, int, QThreadData*) (+0x171) [0x7f972a5fd411]
+
+<10:01:47> (System) - QEventDispatcherUNIX::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) (+0x4e) [0x7f972a65279e]
+
+<10:01:47> (System) - QXcbUnixEventDispatcher::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) (+0x12) [0x7f9718b5c2e2]
+
+<10:01:47> (System) - QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) (+0x12b) [0x7f972a5f961b]
+
+<10:01:47> (System) - QCoreApplication::exec() (+0x94) [0x7f972a6017c4]
+
+<10:01:47> (System) -  -- error: unable to obtain symbol name for this frame
+
+<10:01:47> (System) -  -- error: unable to obtain symbol name for this frame
+
+<10:01:47> (System) - __libc_init_first (+0x90) [0x7f97296b4d90]
+
+<10:01:47> (System) - __libc_start_main (+0x80) [0x7f97296b4e40]
+
+<10:01:47> (System) -  -- error: unable to obtain symbol name for this frame
+
+<10:01:47> (System) - ==================================================================
+
+<10:01:47> (AddInertial) - Processing inertial for entity id: [15357424069878079669]
+
+<10:01:47> (CreatePrefabFromURDF) - Link with name F_striker_tip was created as: [15357424069878079669]
+
+<10:01:47> (URDF Importer) - Spawner not found - creating entity in (0,0,0)
+
