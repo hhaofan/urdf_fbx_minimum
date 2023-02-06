@@ -1,0 +1,149 @@
+cmake -B build/linux -S . -GNinja Multi-Config -DLY_3RDPARTY_PATH=/home/haoyin/.o3de/3rdParty
+-- Using package /home/haoyin/.o3de/3rdParty/packages/zlib-1.2.11-rev5-linux
+-- Using the O3DE version of the ZLIB library from /home/haoyin/.o3de/3rdParty/packages/zlib-1.2.11-rev5-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/qt-5.15.2-rev8-linux
+-- Using package /home/haoyin/o3de/python/runtime/python-3.10.5-rev2-linux
+-- Using Python 3.10.5 at /home/haoyin/o3de/python/runtime/python-3.10.5-rev2-linux/python/bin/python
+-- Using package /home/haoyin/.o3de/3rdParty/packages/RapidJSON-1.1.0-rev1-multiplatform
+-- Using package /home/haoyin/.o3de/3rdParty/packages/Lua-5.4.4-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/RapidXML-1.13-rev1-multiplatform
+-- Using package /home/haoyin/.o3de/3rdParty/packages/zstd-1.35-multiplatform
+-- Using package /home/haoyin/.o3de/3rdParty/packages/cityhash-1.1-multiplatform
+-- Using package /home/haoyin/.o3de/3rdParty/packages/lz4-1.9.3-vcpkg-rev4-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/googletest-1.8.1-rev4-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/googlebenchmark-1.7.0-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/SQLite-3.37.2-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/expat-2.4.2-rev2-linux
+-- Using O3DE expat 2.4.2 from /home/haoyin/.o3de/3rdParty/packages/expat-2.4.2-rev2-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/md5-2.0-multiplatform
+-- Using package /home/haoyin/.o3de/3rdParty/packages/tiff-4.2.0.15-rev3-linux
+-- Using the O3DE version of the TIFF library from /home/haoyin/.o3de/3rdParty/packages/tiff-4.2.0.15-rev3-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/assimp-5.2.5-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/xxhash-0.7.4-rev1-multiplatform
+-- Using package /home/haoyin/.o3de/3rdParty/packages/AWSNativeSDK-1.9.50-rev2-linux-openssl-3
+-- Using package /home/haoyin/.o3de/3rdParty/packages/pybind11-2.10.0-rev1-multiplatform
+-- Using package /home/haoyin/.o3de/3rdParty/packages/mcpp-2.7.2_az.2-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/DirectXShaderCompilerDxc-1.6.2112-o3de-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/SPIRVCross-2021.04.29-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/azslc-1.8.9-rev2-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/astc-encoder-3.2-rev2-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/squish-ccr-deb557d-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/ISPCTexComp-36b80aa-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/OpenEXR-3.1.3-rev4-linux
+-- Using Imath (3.1.3) from /home/haoyin/.o3de/3rdParty/packages/OpenEXR-3.1.3-rev4-linux
+-- Using OpenEXR 3.1.3 from /home/haoyin/.o3de/3rdParty/packages/OpenEXR-3.1.3-rev4-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/openimageio-opencolorio-2.3.17-rev2-linux
+-- Using Imath (3.1.3) from /home/haoyin/.o3de/3rdParty/packages/OpenEXR-3.1.3-rev4-linux
+-- Using O3DE OpenColorIO 2.1.1 from /home/haoyin/.o3de/3rdParty/packages/openimageio-opencolorio-2.3.17-rev2-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/png-1.6.37-rev2-linux
+-- Using the O3DE version of the PNG library from /home/haoyin/.o3de/3rdParty/packages/png-1.6.37-rev2-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/freetype-2.11.1-rev1-linux
+-- Using O3DE's Freetype (2.11.1) from /home/haoyin/.o3de/3rdParty/packages/freetype-2.11.1-rev1-linux
+-- Using OpenEXR 3.1.3 from /home/haoyin/.o3de/3rdParty/packages/OpenEXR-3.1.3-rev4-linux
+-- Using O3DE OpenImageIO 2.3.17.0 from /home/haoyin/.o3de/3rdParty/packages/openimageio-opencolorio-2.3.17-rev2-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/pyside2-5.15.2.1-py3.10-rev6-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/AWSGameLiftServerSDK-3.4.2-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/libsamplerate-0.2.1-rev2-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/NvCloth-v1.1.6-4-gd243404-pr58-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/PhysX-4.1.2.29882248-rev5-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/poly2tri-7f0487a-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/v-hacd-2.3-1a49edf-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/mikkelsen-1.0.0.4-linux
+-- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.2.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found tf2_ros: 0.25.1 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)
+-- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+-- Found control_toolbox: 2.1.2 (/opt/ros/humble/share/control_toolbox/cmake)
+-- Using Imath (3.1.3) from /home/haoyin/.o3de/3rdParty/packages/OpenEXR-3.1.3-rev4-linux
+-- Using OpenEXR 3.1.3 from /home/haoyin/.o3de/3rdParty/packages/OpenEXR-3.1.3-rev4-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/OpenMesh-8.1-rev3-linux
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/haoyin/Ros2WarehouseDemo/build/linux
+cmake --build build/linux --target Ros2WarehouseDemo.GameLauncher Ros2WarehouseDemo.ServerLauncher Ros2WarehouseDemo.UnifiedLauncher Editor --config profile
+[1/120] Automatic MOC for target EditorCore
+[2/100] Automatic MOC for target EditorLib
+[3/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/GNSS/GNSSFormatConversions.cpp.o
+[4/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Lidar/LidarTemplateUtils.cpp.o
+[5/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Lidar/LidarRaycaster.cpp.o
+[6/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Frame/ROS2Transform.cpp.o
+[7/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Clock/SimulationClock.cpp.o
+[8/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Lidar/LidarTemplate.cpp.o
+[9/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/RobotControl/ControlConfiguration.cpp.o
+[10/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Communication/QoS.cpp.o
+[11/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Utilities/ROS2Conversions.cpp.o
+[12/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/RobotImporter/ROS2RobotImporterSystemComponent.cpp.o
+[13/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Communication/TopicConfiguration.cpp.o
+[14/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Frame/NamespaceConfiguration.cpp.o
+[15/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Spawner/ROS2SpawnPointComponent.cpp.o
+[16/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/VehicleDynamics/AxleConfiguration.cpp.o
+[17/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Sensor/SensorConfiguration.cpp.o
+[18/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/VehicleDynamics/VehicleInputs.cpp.o
+[19/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/RobotControl/Controllers/AckermannController/AckermannControlComponent.cpp.o
+[20/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Sensor/ROS2SensorComponent.cpp.o
+[21/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/RobotControl/Controllers/SkidSteeringController/SkidSteeringControlComponent.cpp.o
+[22/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Utilities/ROS2Names.cpp.o
+[23/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/RobotControl/Controllers/RigidBodyController/RigidBodyTwistControlComponent.cpp.o
+[24/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/VehicleDynamics/DriveModel.cpp.o
+[25/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Frame/ROS2FrameComponent.cpp.o
+[26/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/GNSS/ROS2GNSSSensorComponent.cpp.o
+[27/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Manipulator/MotorizedJointComponent.cpp.o
+[28/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Imu/ROS2ImuSensorComponent.cpp.o
+[29/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/VehicleDynamics/Utilities.cpp.o
+[30/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Camera/CameraSensor.cpp.o
+[31/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/VehicleDynamics/ModelLimits/AckermannModelLimits.cpp.o
+[32/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Odometry/ROS2OdometrySensorComponent.cpp.o
+[33/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/VehicleDynamics/DriveModels/PidConfiguration.cpp.o
+[34/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/VehicleDynamics/VehicleConfiguration.cpp.o
+[35/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/VehicleDynamics/DriveModels/AckermannDriveModel.cpp.o
+[36/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/VehicleDynamics/VehicleModelLimits.cpp.o
+[37/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/ROS2SystemComponent.cpp.o
+[38/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/VehicleDynamics/WheelControllerComponent.cpp.o
+[39/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/VehicleDynamics/ModelLimits/SkidSteeringModelLimits.cpp.o
+[40/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/VehicleDynamics/DriveModels/SkidSteeringDriveModel.cpp.o
+[41/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/RobotControl/ROS2RobotControlComponent.cpp.o
+[42/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/VehicleDynamics/VehicleModelComponent.cpp.o
+[43/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/RobotControl/Twist/TwistSubscriptionHandler.cpp.o
+[44/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/RobotControl/Ackermann/AckermannSubscriptionHandler.cpp.o
+[45/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Camera/ROS2CameraSensorComponent.cpp.o
+[46/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/VehicleDynamics/ModelComponents/AckermannModelComponent.cpp.o
+[47/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Spawner/ROS2SpawnerComponent.cpp.o
+[48/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Lidar/ROS2LidarSensorComponent.cpp.o
+[49/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/VehicleDynamics/ModelComponents/SkidSteeringModelComponent.cpp.o
+[50/90] Linking CXX static library lib/profile/libROS2.Static.a
+[51/90] Automatic MOC for target ROS2.Editor.Static
+[52/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Editor.Static.dir/profile/Source/RobotImporter/Pages/CheckUrdfPage.cpp.o
+[53/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Editor.Static.dir/profile/Source/RobotImporter/URDF/UrdfParser.cpp.o
+[54/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Editor.Static.dir/profile/Source/RobotImporter/xacro/XacroUtils.cpp.o
+FAILED: External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Editor.Static.dir/profile/Source/RobotImporter/xacro/XacroUtils.cpp.o 
+/usr/bin/clang++-14 -DAZ_BUILD_CONFIGURATION_TYPE=\"profile\" -DAZ_ENABLE_DEBUG_TOOLS -DAZ_ENABLE_TRACING -DAZ_PHYSICS_DEBUG_ENABLED -DAZ_PROFILE_BUILD -DDEFAULT_LY_PYTHONHOME=\"/home/haoyin/o3de/python/runtime/python-3.10.5-rev2-linux/python\" -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DEDITOR_COMMON_IMPORTS -DENABLE_NON_COMPILED_CGF -DGRAPH_CANVAS_ENABLE_DETAILED_PROFILING=0 -DIMGUI_API_IMPORT -DIMGUI_ENABLED -DIMGUI_INCLUDE_IMGUI_USER_H -DLINUX -DLINUX64 -DNDEBUG -DO3DE_STACK_CAPTURE_DEPTH=3 -DPAL_TRAIT_LINUX_WINDOW_MANAGER_XCB -DPHYSX_EDITOR -DPHYSX_ENABLE_MULTI_THREADING -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_SVG_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DRCUTILS_ENABLE_FAULT_INJECTION -DROS2_EDITOR -D_FORTIFY_SOURCE=2 -D_HAS_EXCEPTIONS=0 -D_PROFILE -D__linux__ -DCMAKE_INTDIR=\"profile\" -I/home/haoyin/Ros2WarehouseDemo/build/linux/External/ROS2-1c0482fe/Code/ROS2.Editor.Static_autogen/include_profile -I/home/haoyin/o3de-extras/Gems/ROS2/Code/Source -I/home/haoyin/o3de-extras/Gems/ROS2/Code/Include -I/home/haoyin/o3de/Code/Framework/AzToolsFramework/. -I/home/haoyin/o3de/Code/Framework/AzToolsFramework/AzToolsFramework -I/home/haoyin/o3de/Code/Framework/AzToolsFramework/Platform/Linux -I/home/haoyin/o3de/Code/Framework/AzFramework/. -I/home/haoyin/o3de/Code/Framework/AzFramework/Platform/Linux -I/home/haoyin/o3de/Code/Framework/AzFramework/Platform/Common/Xcb -I/home/haoyin/o3de/Code/Framework/AzNetworking/. -I/home/haoyin/o3de/Code/Framework/AzNetworking/Platform/Common -I/home/haoyin/o3de/Code/Framework/AzNetworking/Platform/Linux -I/home/haoyin/Ros2WarehouseDemo/build/linux/o3de/Code/Framework/AzNetworking/Azcg/Generated/AzNetworking -I/home/haoyin/o3de/Code/Framework/AzQtComponents/. -I/home/haoyin/o3de/Code/Framework/AzQtComponents/Platform/Linux -I/home/haoyin/o3de/Code/Framework/AzCore/. -I/home/haoyin/o3de/Code/Framework/AzCore/Platform/Linux -I/home/haoyin/o3de/Code/Framework/AzCore/Platform/Common -I/home/haoyin/o3de/Gems/AtomLyIntegration/CommonFeatures/Code/Include -I/home/haoyin/o3de/Gems/Atom/Tools/AtomToolsFramework/Code/Include -I/home/haoyin/o3de/Gems/Atom/Feature/Common/Code/Include -I/home/haoyin/o3de/Gems/Atom/Feature/Common/Code/3rdParty/ACES -I/home/haoyin/o3de/Gems/Atom/RPI/Code/Include -I/home/haoyin/o3de/Gems/Atom/RPI/Code/External -I/home/haoyin/o3de/Code/Framework/AtomCore/. -I/home/haoyin/o3de/Gems/Atom/RHI/Code/Include -I/home/haoyin/o3de/Gems/Atom/Utils/Code/Include -I/home/haoyin/o3de/Gems/Profiler/Code/Include -I/home/haoyin/o3de/Gems/ImGui/Code/../External/ImGui/v1.82 -I/home/haoyin/o3de/Gems/ImGui/Code/Include -I/home/haoyin/o3de/Gems/AtomLyIntegration/AtomImGuiTools/Code/Include -I/home/haoyin/o3de/Gems/LmbrCentral/Code/include -I/home/haoyin/o3de/Gems/GradientSignal/Code/Include -I/home/haoyin/o3de/Gems/SurfaceData/Code/Include -I/home/haoyin/o3de/Gems/Atom/Feature/Common/Code/Source -I/home/haoyin/o3de/Gems/Atom/Asset/ImageProcessingAtom/Code/Include -I/home/haoyin/o3de/Gems/Atom/Bootstrap/Code/Include -I/home/haoyin/o3de/Gems/Atom/Component/DebugCamera/Code/Include -I/home/haoyin/o3de/Gems/GraphCanvas/Code/. -I/home/haoyin/o3de/Gems/GraphCanvas/Code/Source -I/home/haoyin/o3de/Gems/GraphCanvas/Code/StaticLib -I/home/haoyin/o3de/Gems/GraphModel/Code/Include -I/home/haoyin/o3de/Code/Tools/SceneAPI/SceneCore/../.. -I/home/haoyin/o3de/Code/Tools/SceneAPI/SceneData/../.. -I/home/haoyin/o3de/Code/Editor/Include -I/home/haoyin/o3de/Code/Editor/. -I/home/haoyin/o3de/Code/Editor/.. -I/home/haoyin/o3de/Code/Editor/Plugins/EditorCommon/. -I/home/haoyin/o3de/Code/Legacy/CryCommon/. -I/home/haoyin/o3de/Code/Legacy/CryCommon/.. -I/home/haoyin/o3de/Code/Legacy/CryCommon/Platform/Linux -I/home/haoyin/o3de/Gems/PhysX/Code/Include -I/home/haoyin/o3de/Code/Tools/AssetProcessor/AssetBuilderSDK/. -I/home/haoyin/o3de/Gems/PhysX/Code/NumericalMethods/Include -I/home/haoyin/o3de/Gems/PhysX/Code/. -I/home/haoyin/o3de/Gems/PhysX/Code/Source -I/home/haoyin/o3de/Gems/PhysX/Code/Source/Platform/Linux -I/opt/ros/humble/include -I/opt/ros/humble/include/nav_msgs -I/opt/ros/humble/lib/x86_64-linux-gnu/urdfdom/cmake/../../../../include/urdfdom -I/opt/ros/humble/lib/x86_64-linux-gnu/urdfdom_headers/cmake/../../../../include/urdfdom_headers -I/opt/ros/humble/include/tf2_ros -I/opt/ros/humble/include/rclcpp_components -I/opt/ros/humble/include/message_filters -I/opt/ros/humble/include/rclcpp_action -I/opt/ros/humble/include/tf2 -I/opt/ros/humble/include/ackermann_msgs -I/opt/ros/humble/include/gazebo_msgs -I/home/haoyin/o3de/Gems/StartingPointInput/Code/Include -isystem /home/haoyin/.o3de/3rdParty/packages/qt-5.15.2-rev8-linux/qt/include -isystem /home/haoyin/.o3de/3rdParty/packages/qt-5.15.2-rev8-linux/qt/include/QtCore -isystem /home/haoyin/.o3de/3rdParty/packages/qt-5.15.2-rev8-linux/qt/./mkspecs/linux-g++ -isystem /home/haoyin/.o3de/3rdParty/packages/qt-5.15.2-rev8-linux/qt/include/QtGui -isystem /home/haoyin/.o3de/3rdParty/packages/qt-5.15.2-rev8-linux/qt/include/QtGui/5.15.1 -isystem /home/haoyin/.o3de/3rdParty/packages/qt-5.15.2-rev8-linux/qt/include/QtGui/5.15.1/QtGui -isystem /home/haoyin/.o3de/3rdParty/packages/qt-5.15.2-rev8-linux/qt/include/QtCore/5.15.1 -isystem /home/haoyin/.o3de/3rdParty/packages/qt-5.15.2-rev8-linux/qt/include/QtCore/5.15.1/QtCore -isystem /home/haoyin/.o3de/3rdParty/packages/qt-5.15.2-rev8-linux/qt/include/QtWidgets -isystem /home/haoyin/.o3de/3rdParty/packages/qt-5.15.2-rev8-linux/qt/include/QtWidgets/5.15.1 -isystem /home/haoyin/.o3de/3rdParty/packages/qt-5.15.2-rev8-linux/qt/include/QtWidgets/5.15.1/QtWidgets -isystem /home/haoyin/.o3de/3rdParty/packages/RapidJSON-1.1.0-rev1-multiplatform/RapidJSON/include -isystem /home/haoyin/.o3de/3rdParty/packages/RapidXML-1.13-rev1-multiplatform/RapidXML/include -isystem /home/haoyin/.o3de/3rdParty/packages/zstd-1.35-multiplatform/zstd/lib -isystem /home/haoyin/.o3de/3rdParty/packages/lz4-1.9.3-vcpkg-rev4-linux/lz4/lz4/include -isystem /home/haoyin/.o3de/3rdParty/packages/qt-5.15.2-rev8-linux/qt/include/QtSvg -isystem /home/haoyin/.o3de/3rdParty/packages/qt-5.15.2-rev8-linux/qt/include/QtXml -isystem /home/haoyin/.o3de/3rdParty/packages/Lua-5.4.4-rev1-linux/Lua/include -isystem /home/haoyin/.o3de/3rdParty/packages/zlib-1.2.11-rev5-linux/zlib/include -isystem /home/haoyin/.o3de/3rdParty/packages/cityhash-1.1-multiplatform/cityhash/src -isystem /home/haoyin/.o3de/3rdParty/packages/png-1.6.37-rev2-linux/png/include -isystem /home/haoyin/.o3de/3rdParty/packages/tiff-4.2.0.15-rev3-linux/tiff/include -isystem /home/haoyin/o3de/python/runtime/python-3.10.5-rev2-linux/python/include/python3.10 -isystem /home/haoyin/.o3de/3rdParty/packages/qt-5.15.2-rev8-linux/qt/include/QtNetwork -isystem /home/haoyin/.o3de/3rdParty/packages/PhysX-4.1.2.29882248-rev5-linux/PhysX/shared/include -isystem /home/haoyin/.o3de/3rdParty/packages/PhysX-4.1.2.29882248-rev5-linux/PhysX/shared/include/foundation -isystem /home/haoyin/.o3de/3rdParty/packages/PhysX-4.1.2.29882248-rev5-linux/PhysX/shared/include/geometry -isystem /home/haoyin/.o3de/3rdParty/packages/poly2tri-7f0487a-rev1-linux/poly2tri/poly2tri/include/poly2tri -isystem /home/haoyin/.o3de/3rdParty/packages/v-hacd-2.3-1a49edf-rev1-linux/v-hacd/v-hacd/include -isystem /home/haoyin/.o3de/3rdParty/packages/xxhash-0.7.4-rev1-multiplatform/xxhash/include -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/tf2_msgs -isystem /opt/ros/humble/include/trajectory_msgs -isystem /opt/ros/humble/include/control_msgs -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/class_loader -isystem /opt/ros/humble/include/composition_interfaces -isystem /opt/ros/humble/include/unique_identifier_msgs -isystem /opt/ros/humble/include/action_msgs -isystem /opt/ros/humble/include/rcl_action -fno-exceptions -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Werror -Wno-inconsistent-missing-override -Wrange-loop-analysis -Wno-unknown-warning-option -Wno-parentheses -Wno-reorder -Wno-switch -Wno-undefined-var-template -msse4.1  -O2 -g -fstack-protector-all -fstack-check -fPIC -fexceptions -fPIC -std=c++17 -MD -MT External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Editor.Static.dir/profile/Source/RobotImporter/xacro/XacroUtils.cpp.o -MF External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Editor.Static.dir/profile/Source/RobotImporter/xacro/XacroUtils.cpp.o.d -o External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Editor.Static.dir/profile/Source/RobotImporter/xacro/XacroUtils.cpp.o -c /home/haoyin/o3de-extras/Gems/ROS2/Code/Source/RobotImporter/xacro/XacroUtils.cpp
+/home/haoyin/o3de-extras/Gems/ROS2/Code/Source/RobotImporter/xacro/XacroUtils.cpp:22:37: error: no member named 'SettingsRegistry' in namespace 'AZ'
+        auto settingsRegistry = AZ::SettingsRegistry::Get();
+                                ~~~~^
+/home/haoyin/o3de-extras/Gems/ROS2/Code/Source/RobotImporter/xacro/XacroUtils.cpp:42:15: error: unknown type name 'QString'
+        const QString program = QString::fromUtf8(xacroPath.data(), xacroPath.size());
+              ^
+/home/haoyin/o3de-extras/Gems/ROS2/Code/Source/RobotImporter/xacro/XacroUtils.cpp:42:33: error: use of undeclared identifier 'QString'
+        const QString program = QString::fromUtf8(xacroPath.data(), xacroPath.size());
+                                ^
+3 errors generated.
+[55/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Editor.Static.dir/profile/Source/RobotImporter/Pages/CheckAssetPage.cpp.o
+[56/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Editor.Static.dir/profile/Source/RobotImporter/Pages/FileSelectionPage.cpp.o
+[57/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Editor.Static.dir/profile/Source/RobotImporter/Utils/SourceAssetsStorage.cpp.o
+[58/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Editor.Static.dir/profile/Source/RobotImporter/Pages/PrefabMakerPage.cpp.o
+[59/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Editor.Static.dir/profile/ROS2.Editor.Static_autogen/mocs_compilation_profile.cpp.o
+[60/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Editor.Static.dir/profile/Source/RobotImporter/Pages/XacroParamsPage.cpp.o
+[61/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Editor.Static.dir/profile/Source/RobotImporter/ROS2RobotImporterEditorSystemComponent.cpp.o
+[62/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Editor.Static.dir/profile/Source/RobotImporter/RobotImporterWidget.cpp.o
+[63/90] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.dir/profile/Source/ROS2Module.cpp.o
+ninja: build stopped: subcommand failed.

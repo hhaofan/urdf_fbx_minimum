@@ -1,0 +1,363 @@
+cmake -B build/linux -S . -GNinja Multi-Config -DLY_3RDPARTY_PATH=/home/haoyin/.o3de/3rdParty
+-- Using package /home/haoyin/.o3de/3rdParty/packages/zlib-1.2.11-rev5-linux
+-- Using the O3DE version of the ZLIB library from /home/haoyin/.o3de/3rdParty/packages/zlib-1.2.11-rev5-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/qt-5.15.2-rev8-linux
+-- Using package /home/haoyin/o3de/python/runtime/python-3.10.5-rev2-linux
+-- Using Python 3.10.5 at /home/haoyin/o3de/python/runtime/python-3.10.5-rev2-linux/python/bin/python
+-- Using package /home/haoyin/.o3de/3rdParty/packages/RapidJSON-1.1.0-rev1-multiplatform
+-- Using package /home/haoyin/.o3de/3rdParty/packages/Lua-5.4.4-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/RapidXML-1.13-rev1-multiplatform
+-- Using package /home/haoyin/.o3de/3rdParty/packages/zstd-1.35-multiplatform
+-- Using package /home/haoyin/.o3de/3rdParty/packages/cityhash-1.1-multiplatform
+-- Using package /home/haoyin/.o3de/3rdParty/packages/lz4-1.9.3-vcpkg-rev4-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/googletest-1.8.1-rev4-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/googlebenchmark-1.7.0-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/SQLite-3.37.2-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/expat-2.4.2-rev2-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/md5-2.0-multiplatform
+-- Using package /home/haoyin/.o3de/3rdParty/packages/tiff-4.2.0.15-rev3-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/assimp-5.2.5-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/xxhash-0.7.4-rev1-multiplatform
+-- Using package /home/haoyin/.o3de/3rdParty/packages/AWSNativeSDK-1.9.50-rev2-linux-openssl-3
+-- Using package /home/haoyin/.o3de/3rdParty/packages/pybind11-2.10.0-rev1-multiplatform
+-- Using package /home/haoyin/.o3de/3rdParty/packages/vulkan-validationlayers-1.2.198-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/mcpp-2.7.2_az.2-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/DirectXShaderCompilerDxc-1.6.2112-o3de-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/SPIRVCross-2021.04.29-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/azslc-1.8.9-rev2-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/astc-encoder-3.2-rev2-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/squish-ccr-deb557d-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/ISPCTexComp-36b80aa-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/OpenEXR-3.1.3-rev4-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/openimageio-opencolorio-2.3.17-rev2-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/png-1.6.37-rev2-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/freetype-2.11.1-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/pyside2-5.15.2.1-py3.10-rev6-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/AWSGameLiftServerSDK-3.4.2-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/libsamplerate-0.2.1-rev2-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/NvCloth-v1.1.6-4-gd243404-pr58-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/PhysX-4.1.2.29882248-rev5-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/poly2tri-7f0487a-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/v-hacd-2.3-1a49edf-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/mikkelsen-1.0.0.4-linux
+-- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.2.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found nav_msgs: 4.2.2 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found tf2_ros: 0.25.1 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)
+-- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+-- Found control_toolbox: 2.1.2 (/opt/ros/humble/share/control_toolbox/cmake)
+-- Using package /home/haoyin/.o3de/3rdParty/packages/OpenMesh-8.1-rev3-linux
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/haoyin/o3de-physics-test-scene/build/linux
+cmake --build build/linux --target Physics_Test.GameLauncher Physics_Test.ServerLauncher Physics_Test.UnifiedLauncher Editor --config profile
+[1/583] Copying Atom_Feature_Common runtime dependencies to output...
+[2/583] Copying AudioSystem runtime dependencies to output...
+[3/583] Copying Camera runtime dependencies to output...
+[4/583] Copying Atom_RPI.Private runtime dependencies to output...
+[5/583] Copying LmbrCentral runtime dependencies to output...
+[6/583] Copying DebugDraw runtime dependencies to output...
+[7/583] Copying TextureAtlas runtime dependencies to output...
+[8/583] Linking CXX static library lib/profile/libLauncher.Game.Static.a
+[9/583] Linking CXX static library lib/profile/libLauncher.Unified.Static.a
+[10/583] Linking CXX static library lib/profile/libLauncher.Server.Static.a
+[11/583] Automatic MOC for target EditorCore
+[12/568] Automatic MOC for target EditorLib
+[13/557] Building CXX object o3de/Code/LauncherUnified/CMakeFiles/Launcher.Static.dir/profile/Platform/Linux/Launcher_Linux.cpp.o
+[14/557] Building CXX object External/SaveData-8f5a20a0/Code/CMakeFiles/SaveData.Static.dir/profile/Source/Platform/Linux/SaveData_SystemComponent_Linux.cpp.o
+[15/557] Building CXX object External/CertificateManager-ea7a96be/Code/CMakeFiles/CertificateManager.Static.dir/profile/Source/DataSource/FileDataSource.cpp.o
+[16/557] Linking CXX static library lib/profile/libCertificateManager.Static.a
+[17/557] Copying CertificateManager runtime dependencies to output...
+[18/557] Building CXX object External/SaveData-8f5a20a0/Code/CMakeFiles/SaveData.Static.dir/profile/Source/SaveDataSystemComponent.cpp.o
+[19/557] Linking CXX static library lib/profile/libSaveData.Static.a
+[20/557] Copying SaveData runtime dependencies to output...
+[21/557] Building CXX object External/AudioSystem-6b0c705c/Code/CMakeFiles/AudioSystem.dir/profile/Source/AudioSystemModule.cpp.o
+[22/557] Building CXX object External/GameState-a0243475/Code/CMakeFiles/GameState.Static.dir/profile/Source/GameStateSystemComponent.cpp.o
+[23/557] Linking CXX static library lib/profile/libGameState.Static.a
+[24/557] Copying GameState runtime dependencies to output...
+[25/557] Building CXX object External/RPI-b245a284/Code/CMakeFiles/Atom_RPI.Private.dir/profile/Source/RPI.Private/PerformanceCVarManager.cpp.o
+[26/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Client.Static.dir/profile/Source/ConnectionData/ClientToServerConnectionData.cpp.o
+[27/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Client.Static.dir/profile/Source/Editor/MultiplayerEditorConnection.cpp.o
+[28/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Client.Static.dir/profile/Source/ConnectionData/ServerToClientConnectionData.cpp.o
+[29/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Client.Static.dir/profile/Source/Components/LocalPredictionPlayerInputComponent.cpp.o
+[30/557] Building CXX object o3de/Code/LauncherUnified/CMakeFiles/Launcher.Static.dir/profile/Launcher.cpp.o
+[31/557] Linking CXX static library lib/profile/libLauncher.Static.a
+[32/557] Building CXX object External/RPI-b245a284/Code/CMakeFiles/Atom_RPI.Private.dir/profile/Source/RPI.Private/Module.cpp.o
+[33/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Client.Static.dir/profile/Source/Components/NetworkRigidBodyComponent.cpp.o
+[34/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Client.Static.dir/profile/Source/Components/NetworkHierarchyChildComponent.cpp.o
+[35/557] Building CXX object External/Common-fa1a1d18/Code/CMakeFiles/Atom_Feature_Common.dir/profile/Source/CommonModule.cpp.o
+[36/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Client.Static.dir/profile/Source/Components/NetworkTransformComponent.cpp.o
+[37/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Client.Static.dir/profile/Source/Components/NetworkHierarchyRootComponent.cpp.o
+[38/557] Building CXX object External/AudioSystem-6b0c705c/Code/CMakeFiles/AudioSystem.dir/profile/Source/AudioSystemGemSystemComponent.cpp.o
+[39/557] Building CXX object External/CertificateManager-ea7a96be/Code/CMakeFiles/CertificateManager.dir/profile/Source/CertificateManagerGem.cpp.o
+[40/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Client.Static.dir/profile/Source/NetworkEntity/NetworkSpawnableLibrary.cpp.o
+[41/557] Building CXX object External/DebugDraw-eb1b8d3f/Code/CMakeFiles/DebugDraw.dir/profile/Source/DebugDrawModule.cpp.o
+[42/557] Building CXX object External/Camera-e1e63ddd/Code/CMakeFiles/Camera.dir/profile/Source/CameraGem.cpp.o
+[43/557] Building CXX object External/GameState-a0243475/Code/CMakeFiles/GameState.dir/profile/Source/GameStateModule.cpp.o
+[44/557] Building CXX object External/LmbrCentral-67997941/Code/CMakeFiles/LmbrCentral.dir/profile/Source/Shape/TubeShape.cpp.o
+[45/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Client.Static.dir/profile/Source/Components/NetworkCharacterComponent.cpp.o
+[46/557] Building CXX object External/SaveData-8f5a20a0/Code/CMakeFiles/SaveData.dir/profile/Source/SaveDataModule.cpp.o
+[47/557] Linking CXX shared module bin/profile/libCertificateManager.so
+[48/557] Building CXX object External/TextureAtlas-48cd83c6/Code/CMakeFiles/TextureAtlas.dir/profile/Source/TextureAtlasModule.cpp.o
+[49/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Client.Static.dir/profile/Source/NetworkEntity/NetworkEntityManager.cpp.o
+[50/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Client.Static.dir/profile/Source/Components/NetworkHitVolumesComponent.cpp.o
+[51/557] Linking CXX shared module bin/profile/libGameState.so
+[52/557] Linking CXX shared module bin/profile/libSaveData.so
+[53/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Client.Static.dir/profile/Source/NetworkEntity/NetworkEntityAuthorityTracker.cpp.o
+[54/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Client.Static.dir/profile/Source/NetworkEntity/EntityReplication/PropertyPublisher.cpp.o
+[55/557] Building CXX object External/RPI-b245a284/Code/CMakeFiles/Atom_RPI.Private.dir/profile/Source/RPI.Private/RPISystemComponent.cpp.o
+[56/557] Linking CXX shared module bin/profile/libAudioSystem.so
+[57/557] Linking CXX shared module bin/profile/libDebugDraw.so
+[58/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Client.Static.dir/profile/Source/NetworkEntity/EntityReplication/EntityReplicator.cpp.o
+[59/557] Linking CXX shared module bin/profile/libCamera.so
+[60/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Client.Static.dir/profile/Source/NetworkEntity/EntityReplication/PropertySubscriber.cpp.o
+[61/557] Linking CXX shared module bin/profile/libAtom_Feature_Common.so
+[62/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Client.Static.dir/profile/Source/NetworkEntity/EntityReplication/EntityReplicationManager.cpp.o
+[63/557] Linking CXX shared module bin/profile/libTextureAtlas.so
+[64/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Client.Static.dir/profile/Source/ReplicationWindows/NullReplicationWindow.cpp.o
+[65/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Client.Static.dir/profile/Azcg/Generated/Multiplayer.Client.Static/Source/AutoGen/LocalPredictionPlayerInputComponent.AutoComponent.cpp.o
+[66/557] Building CXX object External/LmbrCentral-67997941/Code/CMakeFiles/LmbrCentral.dir/profile/Source/Ai/NavigationComponent.cpp.o
+[67/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Client.Static.dir/profile/Source/ReplicationWindows/ServerToClientReplicationWindow.cpp.o
+[68/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Client.Static.dir/profile/Source/NetworkTime/NetworkTime.cpp.o
+[69/557] Linking CXX shared module bin/profile/libAtom_RPI.Private.so
+[70/557] Copying AtomLyIntegration_CommonFeatures runtime dependencies to output...
+[71/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Client.Static.dir/profile/Azcg/Generated/Multiplayer.Client.Static/Source/AutoGen/NetworkHierarchyChildComponent.AutoComponent.cpp.o
+[72/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Client.Static.dir/profile/Azcg/Generated/Multiplayer.Client.Static/Source/AutoGen/NetworkHierarchyRootComponent.AutoComponent.cpp.o
+[73/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Client.Static.dir/profile/Azcg/Generated/Multiplayer.Client.Static/Source/AutoGen/NetworkCharacterComponent.AutoComponent.cpp.o
+[74/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Client.Static.dir/profile/Azcg/Generated/Multiplayer.Client.Static/Source/AutoGen/AutoComponentTypes.cpp.o
+[75/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Server.Static.dir/profile/Source/NetworkEntity/NetworkSpawnableLibrary.cpp.o
+[76/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Server.Static.dir/profile/Source/Components/LocalPredictionPlayerInputComponent.cpp.o
+[77/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Client.Static.dir/profile/Azcg/Generated/Multiplayer.Client.Static/Source/AutoGen/NetworkHitVolumesComponent.AutoComponent.cpp.o
+[78/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Server.Static.dir/profile/Source/NetworkEntity/NetworkEntityAuthorityTracker.cpp.o
+[79/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Server.Static.dir/profile/Source/Components/NetworkRigidBodyComponent.cpp.o
+[80/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Server.Static.dir/profile/Source/Components/NetworkHierarchyChildComponent.cpp.o
+[81/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Server.Static.dir/profile/Source/NetworkEntity/EntityReplication/PropertyPublisher.cpp.o
+[82/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Client.Static.dir/profile/Source/MultiplayerSystemComponent.cpp.o
+[83/557] Copying Multiplayer runtime dependencies to output...
+[84/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Client.Static.dir/profile/Azcg/Generated/Multiplayer.Client.Static/Source/AutoGen/NetworkRigidBodyComponent.AutoComponent.cpp.o
+[85/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Server.Static.dir/profile/Source/ConnectionData/ClientToServerConnectionData.cpp.o
+[86/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Server.Static.dir/profile/Source/ConnectionData/ServerToClientConnectionData.cpp.o
+[87/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Server.Static.dir/profile/Source/Editor/MultiplayerEditorConnection.cpp.o
+[88/557] Linking CXX static library lib/profile/libWhiteBox.Static.a
+[89/557] Copying WhiteBox runtime dependencies to output...
+[90/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Server.Static.dir/profile/Source/Components/NetworkHierarchyRootComponent.cpp.o
+[91/557] Linking CXX static library lib/profile/libWhiteBox.Editor.Static.a
+[92/557] Building CXX object External/EMotionFX-08abac28/Code/CMakeFiles/EMotionFX.Static.dir/profile/Source/Integration/System/SystemComponent.cpp.o
+[93/557] Linking CXX static library lib/profile/libEMotionFX.Static.a
+[94/557] Copying WhiteBox.Editor runtime dependencies to output...
+[95/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Server.Static.dir/profile/Source/NetworkEntity/EntityReplication/PropertySubscriber.cpp.o
+[96/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Server.Static.dir/profile/Source/Components/NetworkCharacterComponent.cpp.o
+[97/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Server.Static.dir/profile/Source/Components/NetworkTransformComponent.cpp.o
+[98/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Client.Static.dir/profile/Azcg/Generated/Multiplayer.Client.Static/Source/AutoGen/NetworkTransformComponent.AutoComponent.cpp.o
+[99/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Server.Static.dir/profile/Source/NetworkEntity/EntityReplication/EntityReplicator.cpp.o
+[100/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Server.Static.dir/profile/Source/NetworkEntity/EntityReplication/EntityReplicationManager.cpp.o
+[101/557] Linking CXX static library lib/profile/libMultiplayer.Client.Static.a
+[102/557] Copying Multiplayer.Client runtime dependencies to output...
+[103/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Server.Static.dir/profile/Source/ReplicationWindows/ServerToClientReplicationWindow.cpp.o
+[104/557] Copying Multiplayer.Debug.Client runtime dependencies to output...
+[105/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Server.Static.dir/profile/Source/Components/NetworkHitVolumesComponent.cpp.o
+[106/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Server.Static.dir/profile/Source/NetworkEntity/NetworkEntityManager.cpp.o
+[107/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Server.Static.dir/profile/Source/NetworkTime/NetworkTime.cpp.o
+[108/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Server.Static.dir/profile/Source/ReplicationWindows/NullReplicationWindow.cpp.o
+[109/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Clock/SimulationClock.cpp.o
+[110/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Server.Static.dir/profile/Azcg/Generated/Multiplayer.Server.Static/Source/AutoGen/NetworkHitVolumesComponent.AutoComponent.cpp.o
+[111/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Debug.Client.dir/profile/Source/Debug/MultiplayerDebugByteReporter.cpp.o
+[112/557] Building CXX object External/LmbrCentral-67997941/Code/CMakeFiles/LmbrCentral.dir/profile/Source/LmbrCentral.cpp.o
+[113/557] Building CXX object External/LmbrCentral-67997941/Code/CMakeFiles/LmbrCentral.dir/profile/Source/Scripting/SpawnerComponent.cpp.o
+[114/557] Building CXX object External/WhiteBox-64e4410d/Code/CMakeFiles/WhiteBox.dir/profile/Source/WhiteBoxModule.cpp.o
+[115/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Communication/QoS.cpp.o
+[116/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Server.Static.dir/profile/Azcg/Generated/Multiplayer.Server.Static/Source/AutoGen/NetworkCharacterComponent.AutoComponent.cpp.o
+[117/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Server.Static.dir/profile/Azcg/Generated/Multiplayer.Server.Static/Source/AutoGen/LocalPredictionPlayerInputComponent.AutoComponent.cpp.o
+[118/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Communication/TopicConfiguration.cpp.o
+[119/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.dir/profile/Source/MultiplayerGem.cpp.o
+[120/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Server.Static.dir/profile/Azcg/Generated/Multiplayer.Server.Static/Source/AutoGen/AutoComponentTypes.cpp.o
+[121/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Server.Static.dir/profile/Azcg/Generated/Multiplayer.Server.Static/Source/AutoGen/NetworkHierarchyChildComponent.AutoComponent.cpp.o
+[122/557] Linking CXX shared module bin/profile/libPhysX.Editor.Gem.so
+[123/557] Copying PhysXDebug.Editor runtime dependencies to output...
+[124/557] Linking CXX static library lib/profile/libScriptCanvas.Static.a
+[125/557] Copying ScriptCanvas runtime dependencies to output...
+[126/557] Linking CXX shared module bin/profile/libMultiplayer.Editor.so
+[127/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/GNSS/GNSSFormatConversions.cpp.o
+[128/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Server.Static.dir/profile/Azcg/Generated/Multiplayer.Server.Static/Source/AutoGen/NetworkHierarchyRootComponent.AutoComponent.cpp.o
+[129/557] Building CXX object External/WhiteBox-64e4410d/Code/CMakeFiles/WhiteBox.Editor.dir/profile/Source/WhiteBoxModule.cpp.o
+[130/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Debug.Client.dir/profile/Source/Debug/MultiplayerDebugNetworkMetrics.cpp.o
+[131/557] Linking CXX shared module bin/profile/libLmbrCentral.so
+[132/557] Copying PhysX runtime dependencies to output...
+[133/557] Copying ImGui runtime dependencies to output...
+[134/557] Linking CXX shared module bin/profile/libMultiplayer.so
+[135/557] Copying GradientSignal runtime dependencies to output...
+[136/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Server.Static.dir/profile/Azcg/Generated/Multiplayer.Server.Static/Source/AutoGen/NetworkRigidBodyComponent.AutoComponent.cpp.o
+[137/557] Copying EMotionFX runtime dependencies to output...
+[138/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Frame/ROS2Transform.cpp.o
+[139/557] Copying LyShine runtime dependencies to output...
+[140/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Client.dir/profile/Source/MultiplayerGem.cpp.o
+[141/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Debug.Client.dir/profile/Source/Debug/MultiplayerDebugMultiplayerMetrics.cpp.o
+[142/557] Copying Maestro runtime dependencies to output...
+[143/557] Linking CXX shared module bin/profile/libWhiteBox.so
+[144/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Camera/CameraSensor.cpp.o
+[145/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Frame/NamespaceConfiguration.cpp.o
+[146/557] Linking CXX shared module bin/profile/libMultiplayer.Client.so
+[147/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Server.Static.dir/profile/Azcg/Generated/Multiplayer.Server.Static/Source/AutoGen/NetworkTransformComponent.AutoComponent.cpp.o
+[148/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Debug.Client.dir/profile/Source/Debug/MultiplayerDebugPerEntityReporter.cpp.o
+[149/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Debug.Client.dir/profile/Source/Debug/MultiplayerDebugHierarchyReporter.cpp.o
+[150/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Debug.Client.dir/profile/Source/Debug/MultiplayerDebugAuditTrail.cpp.o
+[151/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Frame/ROS2FrameComponent.cpp.o
+[152/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Debug.Client.dir/profile/Source/Debug/MultiplayerConnectionViewportMessageSystemComponent.cpp.o
+[153/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Debug.Client.dir/profile/Source/Debug/MultiplayerDebugModule.cpp.o
+[154/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Server.Static.dir/profile/Source/MultiplayerSystemComponent.cpp.o
+[155/557] Building CXX object External/WhiteBox-64e4410d/Code/CMakeFiles/WhiteBox.Editor.dir/profile/Source/WhiteBoxEditorModule.cpp.o
+[156/557] Linking CXX static library lib/profile/libMultiplayer.Server.Static.a
+[157/557] Copying Multiplayer.Server runtime dependencies to output...
+[158/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Camera/ROS2CameraSensorComponent.cpp.o
+[159/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Imu/ROS2ImuSensorComponent.cpp.o
+[160/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/GNSS/ROS2GNSSSensorComponent.cpp.o
+[161/557] Building CXX object External/ImGui-0504c37f/Code/CMakeFiles/ImGui.dir/profile/Source/ImGuiGem.cpp.o
+[162/557] Building CXX object External/StartingPointInput-48b7c857/Code/CMakeFiles/StartingPointInput.Static.dir/profile/Azcg/Generated/StartingPointInput.Static/AutoGenGrammarRegistry.generated.cpp.o
+[163/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Lidar/LidarRaycaster.cpp.o
+[164/557] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.dir/profile/Source/ScriptCanvasGem.cpp.o
+[165/557] Building CXX object External/PhysXDebug-37d51a43/Code/CMakeFiles/PhysXDebug.Editor.dir/profile/Source/EditorSystemComponent.cpp.o
+[166/557] Building CXX object External/StartingPointInput-48b7c857/Code/CMakeFiles/StartingPointInput.Static.dir/profile/Source/InputConfigurationComponent.cpp.o
+[167/557] Linking CXX shared module bin/profile/libImGui.so
+[168/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Lidar/LidarTemplateUtils.cpp.o
+[169/557] Building CXX object External/PhysXDebug-37d51a43/Code/CMakeFiles/PhysXDebug.Editor.dir/profile/Source/Module.cpp.o
+[170/557] Building CXX object External/StartingPointInput-48b7c857/Code/CMakeFiles/StartingPointInput.Static.dir/profile/Azcg/Generated/StartingPointInput.Static/Source/Deprecated/InputNode.generated.cpp.o
+[171/557] Building CXX object External/Maestro-e48f4151/Code/CMakeFiles/Maestro.dir/profile/Source/MaestroModule.cpp.o
+[172/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Debug.Client.dir/profile/Source/Debug/MultiplayerDebugSystemComponent.cpp.o
+[173/557] Building CXX object External/PhysX-d868fe5c/Code/CMakeFiles/PhysX.dir/profile/Source/Module.cpp.o
+[174/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Lidar/LidarTemplate.cpp.o
+[175/557] Building CXX object External/StartingPointInput-48b7c857/Code/CMakeFiles/StartingPointInput.Static.dir/profile/Source/InputHandlerNodeable.cpp.o
+[176/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/RobotControl/ControlConfiguration.cpp.o
+[177/557] Linking CXX shared module bin/profile/libMaestro.so
+[178/557] Building CXX object External/PhysXDebug-37d51a43/Code/CMakeFiles/PhysXDebug.Editor.dir/profile/Source/SystemComponent.cpp.o
+[179/557] Building CXX object External/StartingPointInput-48b7c857/Code/CMakeFiles/StartingPointInput.Static.dir/profile/Azcg/Generated/StartingPointInput.Static/AutoGenNodeableRegistry.generated.cpp.o
+[180/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Utilities/ROS2Conversions.cpp.o
+[181/557] Building CXX object External/EMotionFX-08abac28/Code/CMakeFiles/EMotionFX.dir/profile/Source/Integration/System/AnimationModule.cpp.o
+[182/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Utilities/ROS2Names.cpp.o
+[183/557] Building CXX object External/Multiplayer-053f0d9e/Code/CMakeFiles/Multiplayer.Server.dir/profile/Source/MultiplayerGem.cpp.o
+[184/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/RobotImporter/ROS2RobotImporterSystemComponent.cpp.o
+[185/557] Linking CXX shared module bin/profile/libWhiteBox.Editor.so
+[186/557] Building CXX object External/StartingPointInput-48b7c857/Code/CMakeFiles/StartingPointInput.Static.dir/profile/Source/InputEventMap.cpp.o
+[187/557] Linking CXX shared module bin/profile/libMultiplayer.Debug.Client.so
+[188/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Manipulator/MotorizedJointComponent.cpp.o
+[189/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/RobotControl/Controllers/AckermannController/AckermannControlComponent.cpp.o
+[190/557] Building CXX object External/PhysX-d868fe5c/Code/CMakeFiles/PhysX.dir/profile/Source/ComponentDescriptors.cpp.o
+[191/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/RobotControl/Controllers/SkidSteeringController/SkidSteeringControlComponent.cpp.o
+[192/557] Linking CXX shared module bin/profile/libMultiplayer.Server.so
+[193/557] Building CXX object External/StartingPointInput-48b7c857/Code/CMakeFiles/StartingPointInput.Static.dir/profile/Azcg/Generated/StartingPointInput.Static/Source/InputHandlerNodeable.generated.cpp.o
+[194/557] Linking CXX static library lib/profile/libStartingPointInput.Static.a
+[195/557] Copying StartingPointInput.Editor runtime dependencies to output...
+[196/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/RobotControl/Controllers/RigidBodyController/RigidBodyTwistControlComponent.cpp.o
+[197/557] Copying StartingPointInput runtime dependencies to output...
+[198/557] Linking CXX shared module bin/profile/libScriptCanvas.so
+[199/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Spawner/ROS2SpawnPointComponent.cpp.o
+[200/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Odometry/ROS2OdometrySensorComponent.cpp.o
+[201/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Sensor/ROS2SensorComponent.cpp.o
+[202/557] Linking CXX shared module bin/profile/libPhysXDebug.Editor.Gem.so
+[203/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/VehicleDynamics/VehicleInputs.cpp.o
+[204/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Sensor/SensorConfiguration.cpp.o
+[205/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/RobotControl/Ackermann/AckermannSubscriptionHandler.cpp.o
+[206/557] Automatic MOC for target ScriptCanvas.Editor.Static
+[207/557] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Windows/Tools/InterpreterWidget/InterpreterWidget.ui
+[208/557] Building CXX object External/LyShine-74276145/Code/CMakeFiles/LyShine.dir/profile/Source/LyShineModule.cpp.o
+[209/557] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Widgets/VariablePanel/VariableConfigurationWidget.ui
+[210/557] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Dialogs/SettingsDialog.ui
+[211/557] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Dialogs/UnsavedChangesDialog.ui
+[212/557] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Widgets/CanvasWidget.ui
+[213/557] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Dialogs/ContainerWizard/ContainerTypeLineEdit.ui
+[214/557] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Widgets/MainWindowStatusWidget.ui
+[215/557] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Dialogs/ContainerWizard/ContainerWizard.ui
+[216/557] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Windows/Tools/UpgradeTool/UpgradeHelper.ui
+[217/557] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Windows/Tools/UpgradeTool/View.ui
+[218/557] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Widgets/ScriptCanvasNodePaletteToolbar.ui
+[219/557] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Widgets/LoggingPanel/LoggingWindow.ui
+[220/557] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Widgets/LoggingPanel/LoggingWindowSession.ui
+[221/557] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Windows/ebushandleractionlistwidget.ui
+[222/557] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Widgets/StatisticsDialog/ScriptCanvasStatisticsDialog.ui
+[223/557] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Widgets/VariablePanel/VariableDockWidget.ui
+[224/557] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Widgets/UnitTestPanel/UnitTestDockWidget.ui
+[225/557] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Windows/mainwindow.ui
+/home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Windows/mainwindow.ui: Warning: action `menuScript_Events_PREVIEW' not declared
+[226/557] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Widgets/CommandLine.ui
+[227/557] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Widgets/LogPanel.ui
+[228/557] Automatic RCC for Editor/View/Windows/ScriptCanvasEditorResources.qrc
+[229/557] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Widgets/ValidationPanel/GraphValidationPanel.ui
+[230/557] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Widgets/LoggingPanel/PivotTree/PivotTreeWidget.ui
+[231/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/VehicleDynamics/AxleConfiguration.cpp.o
+[232/557] Linking CXX shared module bin/profile/libPhysX.Gem.so
+[233/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/VehicleDynamics/DriveModel.cpp.o
+[234/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/ROS2SystemComponent.cpp.o
+[235/557] Linking CXX shared module bin/profile/libEMotionFX.so
+[236/557] Copying EMotionFX_Atom runtime dependencies to output...
+[237/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/VehicleDynamics/Utilities.cpp.o
+[238/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/VehicleDynamics/DriveModels/PidConfiguration.cpp.o
+[239/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/VehicleDynamics/VehicleConfiguration.cpp.o
+[240/557] Building CXX object External/LyShine-74276145/Code/CMakeFiles/LyShine.dir/profile/Source/LyShineSystemComponent.cpp.o
+[241/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/VehicleDynamics/DriveModels/SkidSteeringDriveModel.cpp.o
+[242/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/VehicleDynamics/VehicleModelLimits.cpp.o
+[243/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/VehicleDynamics/ModelLimits/AckermannModelLimits.cpp.o
+[244/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/VehicleDynamics/ModelLimits/SkidSteeringModelLimits.cpp.o
+[245/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Lidar/ROS2LidarSensorComponent.cpp.o
+[246/557] Building CXX object External/Gem-ef49f38e/CMakeFiles/Physics_Test.Static.dir/profile/Source/PhysXJointTestComponent.cpp.o
+FAILED: External/Gem-ef49f38e/CMakeFiles/Physics_Test.Static.dir/profile/Source/PhysXJointTestComponent.cpp.o 
+/usr/bin/clang++-14 -DAZ_BUILD_CONFIGURATION_TYPE=\"profile\" -DAZ_ENABLE_DEBUG_TOOLS -DAZ_ENABLE_TRACING -DAZ_PHYSICS_DEBUG_ENABLED -DAZ_PROFILE_BUILD -DIMGUI_API_IMPORT -DIMGUI_ENABLED -DIMGUI_INCLUDE_IMGUI_USER_H -DLINUX -DLINUX64 -DNDEBUG -DO3DE_STACK_CAPTURE_DEPTH=3 -DPAL_TRAIT_LINUX_WINDOW_MANAGER_XCB -DPHYSX_ENABLE_MULTI_THREADING -D_FORTIFY_SOURCE=2 -D_HAS_EXCEPTIONS=0 -D_PROFILE -D__linux__ -DCMAKE_INTDIR=\"profile\" -I/home/haoyin/o3de-physics-test-scene/Gem/Include -I/home/haoyin/o3de/Gems/PhysX/Code/. -I/home/haoyin/o3de/Gems/PhysX/Code/Source -I/home/haoyin/o3de/Gems/PhysX/Code/Source/Platform/Linux -I/home/haoyin/o3de/Gems/PhysX/Code/Include -I/home/haoyin/o3de/Code/Framework/AzCore/. -I/home/haoyin/o3de/Code/Framework/AzCore/Platform/Linux -I/home/haoyin/o3de/Code/Framework/AzCore/Platform/Common -I/home/haoyin/o3de/Code/Framework/AzFramework/. -I/home/haoyin/o3de/Code/Framework/AzFramework/Platform/Linux -I/home/haoyin/o3de/Code/Framework/AzFramework/Platform/Common/Xcb -I/home/haoyin/o3de/Code/Framework/AzNetworking/. -I/home/haoyin/o3de/Code/Framework/AzNetworking/Platform/Common -I/home/haoyin/o3de/Code/Framework/AzNetworking/Platform/Linux -I/home/haoyin/o3de-physics-test-scene/build/linux/o3de/Code/Framework/AzNetworking/Azcg/Generated/AzNetworking -I/home/haoyin/o3de/Code/Legacy/CryCommon/. -I/home/haoyin/o3de/Code/Legacy/CryCommon/.. -I/home/haoyin/o3de/Code/Legacy/CryCommon/Platform/Linux -I/home/haoyin/o3de/Gems/ImGui/Code/Include -I/home/haoyin/o3de/Gems/ImGui/Code/../External/ImGui/v1.82 -I/home/haoyin/o3de/Code/Framework/AzGameFramework/AzGameFramework/.. -I/home/haoyin/o3de/Gems/AtomLyIntegration/AtomBridge/Code/Include -I/home/haoyin/o3de/Code/Framework/AtomCore/. -I/home/haoyin/o3de/Gems/Atom/RPI/Code/Include -I/home/haoyin/o3de/Gems/Atom/RPI/Code/External -I/home/haoyin/o3de/Gems/Atom/RHI/Code/Include -I/home/haoyin/o3de/Gems/Atom/Bootstrap/Code/Include -isystem /home/haoyin/.o3de/3rdParty/packages/PhysX-4.1.2.29882248-rev5-linux/PhysX/shared/include -isystem /home/haoyin/.o3de/3rdParty/packages/PhysX-4.1.2.29882248-rev5-linux/PhysX/shared/include/foundation -isystem /home/haoyin/.o3de/3rdParty/packages/PhysX-4.1.2.29882248-rev5-linux/PhysX/shared/include/geometry -isystem /home/haoyin/.o3de/3rdParty/packages/Lua-5.4.4-rev1-linux/Lua/include -isystem /home/haoyin/.o3de/3rdParty/packages/RapidJSON-1.1.0-rev1-multiplatform/RapidJSON/include -isystem /home/haoyin/.o3de/3rdParty/packages/RapidXML-1.13-rev1-multiplatform/RapidXML/include -isystem /home/haoyin/.o3de/3rdParty/packages/zlib-1.2.11-rev5-linux/zlib/include -isystem /home/haoyin/.o3de/3rdParty/packages/zstd-1.35-multiplatform/zstd/lib -isystem /home/haoyin/.o3de/3rdParty/packages/cityhash-1.1-multiplatform/cityhash/src -isystem /home/haoyin/.o3de/3rdParty/packages/lz4-1.9.3-vcpkg-rev4-linux/lz4/lz4/include -fno-exceptions -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Werror -Wno-inconsistent-missing-override -Wrange-loop-analysis -Wno-unknown-warning-option -Wno-parentheses -Wno-reorder -Wno-switch -Wno-undefined-var-template -msse4.1  -O2 -g -fstack-protector-all -fstack-check -fPIC -std=c++17 -MD -MT External/Gem-ef49f38e/CMakeFiles/Physics_Test.Static.dir/profile/Source/PhysXJointTestComponent.cpp.o -MF External/Gem-ef49f38e/CMakeFiles/Physics_Test.Static.dir/profile/Source/PhysXJointTestComponent.cpp.o.d -o External/Gem-ef49f38e/CMakeFiles/Physics_Test.Static.dir/profile/Source/PhysXJointTestComponent.cpp.o -c /home/haoyin/o3de-physics-test-scene/Gem/Source/PhysXJointTestComponent.cpp
+/home/haoyin/o3de-physics-test-scene/Gem/Source/PhysXJointTestComponent.cpp:67:14: error: no member named 'JointInterfaceRequestBus' in namespace 'PhysX'
+      PhysX::JointInterfaceRequestBus::EventResult(velocity, id, &PhysX::JointRequests::GetVelocity);
+      ~~~~~~~^
+/home/haoyin/o3de-physics-test-scene/Gem/Source/PhysXJointTestComponent.cpp:68:14: error: no member named 'JointInterfaceRequestBus' in namespace 'PhysX'
+      PhysX::JointInterfaceRequestBus::EventResult(position, id, &PhysX::JointRequests::GetPosition);
+      ~~~~~~~^
+/home/haoyin/o3de-physics-test-scene/Gem/Source/PhysXJointTestComponent.cpp:69:14: error: no member named 'JointInterfaceRequestBus' in namespace 'PhysX'
+      PhysX::JointInterfaceRequestBus::EventResult(limits, id, &PhysX::JointRequests::GetLimits);
+      ~~~~~~~^
+/home/haoyin/o3de-physics-test-scene/Gem/Source/PhysXJointTestComponent.cpp:90:14: error: no member named 'JointInterfaceRequestBus' in namespace 'PhysX'
+      PhysX::JointInterfaceRequestBus::Event(id, &PhysX::JointRequests::SetVelocity, m_velocitySet);
+      ~~~~~~~^
+/home/haoyin/o3de-physics-test-scene/Gem/Source/PhysXJointTestComponent.cpp:91:14: error: no member named 'JointInterfaceRequestBus' in namespace 'PhysX'
+      PhysX::JointInterfaceRequestBus::Event(id, &PhysX::JointRequests::SetMaximumForce, m_forceSet);
+      ~~~~~~~^
+5 errors generated.
+[247/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/VehicleDynamics/WheelControllerComponent.cpp.o
+[248/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/RobotControl/Twist/TwistSubscriptionHandler.cpp.o
+[249/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/VehicleDynamics/DriveModels/AckermannDriveModel.cpp.o
+[250/557] Building CXX object External/Gem-ef49f38e/CMakeFiles/Physics_Test.Static.dir/profile/Source/SkidSteering.cpp.o
+FAILED: External/Gem-ef49f38e/CMakeFiles/Physics_Test.Static.dir/profile/Source/SkidSteering.cpp.o 
+/usr/bin/clang++-14 -DAZ_BUILD_CONFIGURATION_TYPE=\"profile\" -DAZ_ENABLE_DEBUG_TOOLS -DAZ_ENABLE_TRACING -DAZ_PHYSICS_DEBUG_ENABLED -DAZ_PROFILE_BUILD -DIMGUI_API_IMPORT -DIMGUI_ENABLED -DIMGUI_INCLUDE_IMGUI_USER_H -DLINUX -DLINUX64 -DNDEBUG -DO3DE_STACK_CAPTURE_DEPTH=3 -DPAL_TRAIT_LINUX_WINDOW_MANAGER_XCB -DPHYSX_ENABLE_MULTI_THREADING -D_FORTIFY_SOURCE=2 -D_HAS_EXCEPTIONS=0 -D_PROFILE -D__linux__ -DCMAKE_INTDIR=\"profile\" -I/home/haoyin/o3de-physics-test-scene/Gem/Include -I/home/haoyin/o3de/Gems/PhysX/Code/. -I/home/haoyin/o3de/Gems/PhysX/Code/Source -I/home/haoyin/o3de/Gems/PhysX/Code/Source/Platform/Linux -I/home/haoyin/o3de/Gems/PhysX/Code/Include -I/home/haoyin/o3de/Code/Framework/AzCore/. -I/home/haoyin/o3de/Code/Framework/AzCore/Platform/Linux -I/home/haoyin/o3de/Code/Framework/AzCore/Platform/Common -I/home/haoyin/o3de/Code/Framework/AzFramework/. -I/home/haoyin/o3de/Code/Framework/AzFramework/Platform/Linux -I/home/haoyin/o3de/Code/Framework/AzFramework/Platform/Common/Xcb -I/home/haoyin/o3de/Code/Framework/AzNetworking/. -I/home/haoyin/o3de/Code/Framework/AzNetworking/Platform/Common -I/home/haoyin/o3de/Code/Framework/AzNetworking/Platform/Linux -I/home/haoyin/o3de-physics-test-scene/build/linux/o3de/Code/Framework/AzNetworking/Azcg/Generated/AzNetworking -I/home/haoyin/o3de/Code/Legacy/CryCommon/. -I/home/haoyin/o3de/Code/Legacy/CryCommon/.. -I/home/haoyin/o3de/Code/Legacy/CryCommon/Platform/Linux -I/home/haoyin/o3de/Gems/ImGui/Code/Include -I/home/haoyin/o3de/Gems/ImGui/Code/../External/ImGui/v1.82 -I/home/haoyin/o3de/Code/Framework/AzGameFramework/AzGameFramework/.. -I/home/haoyin/o3de/Gems/AtomLyIntegration/AtomBridge/Code/Include -I/home/haoyin/o3de/Code/Framework/AtomCore/. -I/home/haoyin/o3de/Gems/Atom/RPI/Code/Include -I/home/haoyin/o3de/Gems/Atom/RPI/Code/External -I/home/haoyin/o3de/Gems/Atom/RHI/Code/Include -I/home/haoyin/o3de/Gems/Atom/Bootstrap/Code/Include -isystem /home/haoyin/.o3de/3rdParty/packages/PhysX-4.1.2.29882248-rev5-linux/PhysX/shared/include -isystem /home/haoyin/.o3de/3rdParty/packages/PhysX-4.1.2.29882248-rev5-linux/PhysX/shared/include/foundation -isystem /home/haoyin/.o3de/3rdParty/packages/PhysX-4.1.2.29882248-rev5-linux/PhysX/shared/include/geometry -isystem /home/haoyin/.o3de/3rdParty/packages/Lua-5.4.4-rev1-linux/Lua/include -isystem /home/haoyin/.o3de/3rdParty/packages/RapidJSON-1.1.0-rev1-multiplatform/RapidJSON/include -isystem /home/haoyin/.o3de/3rdParty/packages/RapidXML-1.13-rev1-multiplatform/RapidXML/include -isystem /home/haoyin/.o3de/3rdParty/packages/zlib-1.2.11-rev5-linux/zlib/include -isystem /home/haoyin/.o3de/3rdParty/packages/zstd-1.35-multiplatform/zstd/lib -isystem /home/haoyin/.o3de/3rdParty/packages/cityhash-1.1-multiplatform/cityhash/src -isystem /home/haoyin/.o3de/3rdParty/packages/lz4-1.9.3-vcpkg-rev4-linux/lz4/lz4/include -fno-exceptions -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Werror -Wno-inconsistent-missing-override -Wrange-loop-analysis -Wno-unknown-warning-option -Wno-parentheses -Wno-reorder -Wno-switch -Wno-undefined-var-template -msse4.1  -O2 -g -fstack-protector-all -fstack-check -fPIC -std=c++17 -MD -MT External/Gem-ef49f38e/CMakeFiles/Physics_Test.Static.dir/profile/Source/SkidSteering.cpp.o -MF External/Gem-ef49f38e/CMakeFiles/Physics_Test.Static.dir/profile/Source/SkidSteering.cpp.o.d -o External/Gem-ef49f38e/CMakeFiles/Physics_Test.Static.dir/profile/Source/SkidSteering.cpp.o -c /home/haoyin/o3de-physics-test-scene/Gem/Source/SkidSteering.cpp
+/home/haoyin/o3de-physics-test-scene/Gem/Source/SkidSteering.cpp:64:10: error: no member named 'JointInterfaceRequestBus' in namespace 'PhysX'
+  PhysX::JointInterfaceRequestBus::Event(id, [&](PhysX::JointRequests * joint){
+  ~~~~~~~^
+1 error generated.
+[251/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/VehicleDynamics/VehicleModelComponent.cpp.o
+[252/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/RobotControl/ROS2RobotControlComponent.cpp.o
+[253/557] Building CXX object External/GradientSignal-fd17e16e/Code/CMakeFiles/GradientSignal.dir/profile/Source/GradientSignalModule.cpp.o
+[254/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/VehicleDynamics/ModelComponents/AckermannModelComponent.cpp.o
+[255/557] Building CXX object External/EMotionFXAtom-5a967f45/Code/CMakeFiles/EMotionFX_Atom.dir/profile/Source/ActorModule.cpp.o
+[256/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/VehicleDynamics/ModelComponents/SkidSteeringModelComponent.cpp.o
+[257/557] Building CXX object External/ROS2-1c0482fe/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Spawner/ROS2SpawnerComponent.cpp.o
+[258/557] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/Editor/Assets/ScriptCanvasAssetHelpers.cpp.o
+[259/557] Building CXX object External/CommonFeatures-201159c0/Code/CMakeFiles/AtomLyIntegration_CommonFeatures.dir/profile/Source/Module.cpp.o
+[260/557] Linking CXX shared module bin/profile/libLyShine.so
+[261/557] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/Editor/Components/EditorGraphVariableManagerComponent.cpp.o
+[262/557] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/ScriptCanvas.Editor.Static_autogen/mocs_compilation_profile.cpp.o
+[263/557] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/Editor/GraphCanvas/Components/NodeDescriptors/ClassMethodNodeDescriptorComponent.cpp.o
+[264/557] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/Editor/GraphCanvas/Components/NodeDescriptors/AzEventHandlerNodeDescriptorComponent.cpp.o
+[265/557] Building CXX object External/StartingPointInput-48b7c857/Code/CMakeFiles/StartingPointInput.dir/profile/Source/StartingPointInputGem.cpp.o
+[266/557] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/Editor/Assets/ScriptCanvasFileHandling.cpp.o
+[267/557] Building CXX object External/StartingPointInput-48b7c857/Code/CMakeFiles/StartingPointInput.Editor.dir/profile/Source/StartingPointInputGem.cpp.o
+[268/557] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/Editor/Settings.cpp.o
+[269/557] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/Editor/Assets/ScriptCanvasUndoHelper.cpp.o
+[270/557] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/Editor/Components/EditorUtils.cpp.o
+[271/557] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/Editor/Components/EditorScriptCanvasComponent.cpp.o
+[272/557] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/Editor/ReflectComponent.cpp.o
+[273/557] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/Editor/ScriptCanvasEditorGem.cpp.o
+[274/557] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/Editor/SystemComponent.cpp.o
+[275/557] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/Editor/Components/EditorGraph.cpp.o
+ninja: build stopped: subcommand failed.
