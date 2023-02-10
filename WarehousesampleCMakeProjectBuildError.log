@@ -1,0 +1,361 @@
+cmake -B build/linux -S . -GNinja Multi-Config -DLY_3RDPARTY_PATH=/home/haoyin/.o3de/3rdParty
+-- Using package /home/haoyin/.o3de/3rdParty/packages/zlib-1.2.11-rev5-linux
+-- Using the O3DE version of the ZLIB library from /home/haoyin/.o3de/3rdParty/packages/zlib-1.2.11-rev5-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/qt-5.15.2-rev8-linux
+-- Using package /home/haoyin/o3de/python/runtime/python-3.10.5-rev2-linux
+-- Using Python 3.10.5 at /home/haoyin/o3de/python/runtime/python-3.10.5-rev2-linux/python/bin/python
+-- Using package /home/haoyin/.o3de/3rdParty/packages/RapidJSON-1.1.0-rev1-multiplatform
+-- Using package /home/haoyin/.o3de/3rdParty/packages/Lua-5.4.4-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/RapidXML-1.13-rev1-multiplatform
+-- Using package /home/haoyin/.o3de/3rdParty/packages/zstd-1.35-multiplatform
+-- Using package /home/haoyin/.o3de/3rdParty/packages/cityhash-1.1-multiplatform
+-- Using package /home/haoyin/.o3de/3rdParty/packages/googletest-1.8.1-rev4-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/googlebenchmark-1.7.0-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/lz4-1.9.3-vcpkg-rev4-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/SQLite-3.37.2-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/expat-2.4.2-rev2-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/md5-2.0-multiplatform
+-- Using package /home/haoyin/.o3de/3rdParty/packages/tiff-4.2.0.15-rev3-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/assimp-5.2.5-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/xxhash-0.7.4-rev1-multiplatform
+-- Using package /home/haoyin/.o3de/3rdParty/packages/AWSNativeSDK-1.9.50-rev2-linux-openssl-3
+-- Using package /home/haoyin/.o3de/3rdParty/packages/pybind11-2.10.0-rev1-multiplatform
+-- Using package /home/haoyin/.o3de/3rdParty/packages/vulkan-validationlayers-1.2.198-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/mcpp-2.7.2_az.2-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/DirectXShaderCompilerDxc-1.6.2112-o3de-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/SPIRVCross-2021.04.29-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/azslc-1.8.9-rev2-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/astc-encoder-3.2-rev2-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/squish-ccr-deb557d-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/ISPCTexComp-36b80aa-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/OpenEXR-3.1.3-rev4-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/openimageio-opencolorio-2.3.17-rev2-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/png-1.6.37-rev2-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/freetype-2.11.1-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/pyside2-5.15.2.1-py3.10-rev6-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/AWSGameLiftServerSDK-3.4.2-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/libsamplerate-0.2.1-rev2-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/NvCloth-v1.1.6-4-gd243404-pr58-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/PhysX-4.1.2.29882248-rev5-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/poly2tri-7f0487a-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/v-hacd-2.3-1a49edf-rev1-linux
+-- Using package /home/haoyin/.o3de/3rdParty/packages/mikkelsen-1.0.0.4-linux
+-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found tf2_ros: 0.25.2 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)
+-- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+-- Found control_toolbox: 2.1.2 (/opt/ros/humble/share/control_toolbox/cmake)
+-- Using package /home/haoyin/.o3de/3rdParty/packages/OpenMesh-8.1-rev3-linux
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/haoyin/O3DE/Projects/WarehouseTest/build/linux
+cmake --build build/linux --target WarehouseTest.GameLauncher WarehouseTest.ServerLauncher WarehouseTest.UnifiedLauncher Editor --config profile
+[1/354] Building CXX object o3de/Code/LauncherUnified/CMakeFiles/Launcher.Server.Static.dir/profile/Server.cpp.o
+[2/354] Building CXX object o3de/Code/LauncherUnified/CMakeFiles/Launcher.Unified.Static.dir/profile/Unified.cpp.o
+[3/354] Linking CXX static library lib/profile/libLauncher.Server.Static.a
+[4/354] Automatic MOC for target EditorCore
+[5/338] Linking CXX static library lib/profile/libStartingPointInput.Static.a
+[6/338] Linking CXX static library lib/profile/libWarehouseTest.Private.Object.a
+[7/338] Linking CXX static library lib/profile/libLauncher.Unified.Static.a
+[8/338] Copying StartingPointInput runtime dependencies to output...
+[9/338] Copying WarehouseTest runtime dependencies to output...
+[10/338] Copying StartingPointInput.Editor runtime dependencies to output...
+[11/338] Automatic MOC for target EditorLib
+[12/328] Automatic MOC for target ScriptCanvas.Editor.Static
+[13/328] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Dialogs/SettingsDialog.ui
+[14/328] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Widgets/CommandLine.ui
+[15/328] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Widgets/LogPanel.ui
+[16/328] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Widgets/MainWindowStatusWidget.ui
+[17/328] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Dialogs/UnsavedChangesDialog.ui
+[18/328] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Dialogs/ContainerWizard/ContainerTypeLineEdit.ui
+[19/328] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Windows/mainwindow.ui
+[20/328] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Windows/Tools/InterpreterWidget/InterpreterWidget.ui
+[21/328] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Widgets/ScriptCanvasNodePaletteToolbar.ui
+[22/328] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Widgets/LoggingPanel/LoggingWindow.ui
+[23/328] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Widgets/StatisticsDialog/ScriptCanvasStatisticsDialog.ui
+[24/328] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Widgets/VariablePanel/VariableConfigurationWidget.ui
+[25/328] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Widgets/UnitTestPanel/UnitTestDockWidget.ui
+[26/328] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Windows/ebushandleractionlistwidget.ui
+[27/328] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Widgets/ValidationPanel/GraphValidationPanel.ui
+[28/328] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Windows/Tools/UpgradeTool/UpgradeHelper.ui
+[29/328] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Windows/Tools/UpgradeTool/View.ui
+[30/328] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Dialogs/ContainerWizard/ContainerWizard.ui
+[31/328] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Widgets/LoggingPanel/PivotTree/PivotTreeWidget.ui
+[32/328] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Widgets/CanvasWidget.ui
+[33/328] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Widgets/LoggingPanel/LoggingWindowSession.ui
+[34/328] UIC /home/haoyin/o3de/Gems/ScriptCanvas/Code/Editor/View/Widgets/VariablePanel/VariableDockWidget.ui
+[35/328] Automatic RCC for Editor/View/Windows/ScriptCanvasEditorResources.qrc
+[36/328] Building CXX object External/ROS2-5e8367e7/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Lidar/LidarTemplate.cpp.o
+FAILED: External/ROS2-5e8367e7/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Lidar/LidarTemplate.cpp.o 
+/usr/bin/clang++-14 -DAZ_BUILD_CONFIGURATION_TYPE=\"profile\" -DAZ_ENABLE_DEBUG_TOOLS -DAZ_ENABLE_TRACING -DAZ_PHYSICS_DEBUG_ENABLED -DAZ_PROFILE_BUILD -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DIMGUI_API_IMPORT -DIMGUI_ENABLED -DIMGUI_INCLUDE_IMGUI_USER_H -DLINUX -DLINUX64 -DNDEBUG -DO3DE_STACK_CAPTURE_DEPTH=3 -DPAL_TRAIT_LINUX_WINDOW_MANAGER_XCB -DPHYSX_ENABLE_MULTI_THREADING -DRCUTILS_ENABLE_FAULT_INJECTION -D_FORTIFY_SOURCE=2 -D_HAS_EXCEPTIONS=0 -D_PROFILE -D__linux__ -DCMAKE_INTDIR=\"profile\" -I/home/haoyin/O3DE/Gems/ROS2/Code/Include -I/home/haoyin/O3DE/Gems/ROS2/Code/Source -I/home/haoyin/O3DE/Gems/ROS2/Code/Source/VehicleDynamics -I/opt/ros/humble/include -I/opt/ros/humble/include/nav_msgs -I/opt/ros/humble/lib/x86_64-linux-gnu/urdfdom/cmake/../../../../include/urdfdom -I/opt/ros/humble/lib/x86_64-linux-gnu/urdfdom_headers/cmake/../../../../include/urdfdom_headers -I/opt/ros/humble/include/tf2_ros -I/opt/ros/humble/include/rclcpp_components -I/opt/ros/humble/include/message_filters -I/opt/ros/humble/include/rclcpp_action -I/opt/ros/humble/include/tf2 -I/opt/ros/humble/include/ackermann_msgs -I/opt/ros/humble/include/gazebo_msgs -I/home/haoyin/o3de/Gems/StartingPointInput/Code/Include -I/home/haoyin/o3de/Code/Framework/AzCore/. -I/home/haoyin/o3de/Code/Framework/AzCore/Platform/Linux -I/home/haoyin/o3de/Code/Framework/AzCore/Platform/Common -I/home/haoyin/o3de/Code/Framework/AzFramework/. -I/home/haoyin/o3de/Code/Framework/AzFramework/Platform/Linux -I/home/haoyin/o3de/Code/Framework/AzFramework/Platform/Common/Xcb -I/home/haoyin/o3de/Code/Framework/AzNetworking/. -I/home/haoyin/o3de/Code/Framework/AzNetworking/Platform/Common -I/home/haoyin/o3de/Code/Framework/AzNetworking/Platform/Linux -I/home/haoyin/O3DE/Projects/WarehouseTest/build/linux/o3de/Code/Framework/AzNetworking/Azcg/Generated/AzNetworking -I/home/haoyin/o3de/Gems/Atom/RPI/Code/Include -I/home/haoyin/o3de/Gems/Atom/RPI/Code/External -I/home/haoyin/o3de/Code/Framework/AtomCore/. -I/home/haoyin/o3de/Gems/Atom/RHI/Code/Include -I/home/haoyin/o3de/Gems/Atom/Feature/Common/Code/Include -I/home/haoyin/o3de/Gems/Atom/Feature/Common/Code/Source -I/home/haoyin/o3de/Gems/Atom/Utils/Code/Include -I/home/haoyin/o3de/Gems/Profiler/Code/Include -I/home/haoyin/o3de/Gems/ImGui/Code/../External/ImGui/v1.82 -I/home/haoyin/o3de/Gems/ImGui/Code/Include -I/home/haoyin/o3de/Gems/Atom/Feature/Common/Code/3rdParty/ACES -I/home/haoyin/o3de/Gems/Atom/Component/DebugCamera/Code/Include -I/home/haoyin/o3de/Gems/PhysX/Code/. -I/home/haoyin/o3de/Gems/PhysX/Code/Source -I/home/haoyin/o3de/Gems/PhysX/Code/Source/Platform/Linux -I/home/haoyin/o3de/Gems/PhysX/Code/Include -I/home/haoyin/o3de/Code/Legacy/CryCommon/. -I/home/haoyin/o3de/Code/Legacy/CryCommon/.. -I/home/haoyin/o3de/Code/Legacy/CryCommon/Platform/Linux -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/tf2_msgs -isystem /opt/ros/humble/include/trajectory_msgs -isystem /opt/ros/humble/include/control_msgs -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/class_loader -isystem /opt/ros/humble/include/composition_interfaces -isystem /opt/ros/humble/include/unique_identifier_msgs -isystem /opt/ros/humble/include/action_msgs -isystem /opt/ros/humble/include/rcl_action -isystem /home/haoyin/.o3de/3rdParty/packages/Lua-5.4.4-rev1-linux/Lua/include -isystem /home/haoyin/.o3de/3rdParty/packages/RapidJSON-1.1.0-rev1-multiplatform/RapidJSON/include -isystem /home/haoyin/.o3de/3rdParty/packages/RapidXML-1.13-rev1-multiplatform/RapidXML/include -isystem /home/haoyin/.o3de/3rdParty/packages/zlib-1.2.11-rev5-linux/zlib/include -isystem /home/haoyin/.o3de/3rdParty/packages/zstd-1.35-multiplatform/zstd/lib -isystem /home/haoyin/.o3de/3rdParty/packages/cityhash-1.1-multiplatform/cityhash/src -isystem /home/haoyin/.o3de/3rdParty/packages/lz4-1.9.3-vcpkg-rev4-linux/lz4/lz4/include -isystem /home/haoyin/.o3de/3rdParty/packages/png-1.6.37-rev2-linux/png/include -isystem /home/haoyin/.o3de/3rdParty/packages/tiff-4.2.0.15-rev3-linux/tiff/include -isystem /home/haoyin/.o3de/3rdParty/packages/PhysX-4.1.2.29882248-rev5-linux/PhysX/shared/include -isystem /home/haoyin/.o3de/3rdParty/packages/PhysX-4.1.2.29882248-rev5-linux/PhysX/shared/include/foundation -isystem /home/haoyin/.o3de/3rdParty/packages/PhysX-4.1.2.29882248-rev5-linux/PhysX/shared/include/geometry -fno-exceptions -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Werror -Wno-inconsistent-missing-override -Wrange-loop-analysis -Wno-unknown-warning-option -Wno-parentheses -Wno-reorder -Wno-switch -Wno-undefined-var-template -msse4.1  -O2 -g -fstack-protector-all -fstack-check -fPIC -std=c++17 -MD -MT External/ROS2-5e8367e7/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Lidar/LidarTemplate.cpp.o -MF External/ROS2-5e8367e7/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Lidar/LidarTemplate.cpp.o.d -o External/ROS2-5e8367e7/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Lidar/LidarTemplate.cpp.o -c /home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarTemplate.cpp
+/home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarTemplate.cpp:25:28: error: member access into incomplete type 'AZ::EditContext'
+                editContext->Class<NoiseParameters>("Noise Parameters", "Noise Parameters")
+                           ^
+/home/haoyin/o3de/Code/Framework/AzCore/./AzCore/Serialization/SerializeContext.h:50:11: note: forward declaration of 'AZ::EditContext'
+    class EditContext;
+          ^
+/home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarTemplate.cpp:27:35: error: no member named 'UIHandlers' in namespace 'AZ::Edit'
+                        AZ::Edit::UIHandlers::Default,
+                        ~~~~~~~~~~^
+/home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarTemplate.cpp:31:33: error: no member named 'Attributes' in namespace 'AZ::Edit'; did you mean 'AZ::Serialize::Attributes'?
+                    ->Attribute(AZ::Edit::Attributes::Min, 0.0f)
+                                ^~~~~~~~~~~~~~~~~~~~
+                                AZ::Serialize::Attributes
+/home/haoyin/o3de/Code/Framework/AzCore/./AzCore/Serialization/SerializeContext.h:98:19: note: 'AZ::Serialize::Attributes' declared here
+        namespace Attributes
+                  ^
+/home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarTemplate.cpp:31:43: error: no member named 'Min' in namespace 'AZ::Serialize::Attributes'; did you mean 'sin'?
+                    ->Attribute(AZ::Edit::Attributes::Min, 0.0f)
+                                          ^~~~~~~~~~~~~~~
+                                          sin
+/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/math.h:44:12: note: 'sin' declared here
+using std::sin;
+           ^
+/home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarTemplate.cpp:32:33: error: no member named 'Attributes' in namespace 'AZ::Edit'; did you mean 'AZ::Serialize::Attributes'?
+                    ->Attribute(AZ::Edit::Attributes::Max, 180.0f)
+                                ^~~~~~~~~~~~~~~~~~~~
+                                AZ::Serialize::Attributes
+/home/haoyin/o3de/Code/Framework/AzCore/./AzCore/Serialization/SerializeContext.h:98:19: note: 'AZ::Serialize::Attributes' declared here
+        namespace Attributes
+                  ^
+/home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarTemplate.cpp:32:55: error: no member named 'Max' in namespace 'AZ::Serialize::Attributes'
+                    ->Attribute(AZ::Edit::Attributes::Max, 180.0f)
+                                          ~~~~~~~~~~~~^
+/home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarTemplate.cpp:34:35: error: no member named 'UIHandlers' in namespace 'AZ::Edit'
+                        AZ::Edit::UIHandlers::Default,
+                        ~~~~~~~~~~^
+/home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarTemplate.cpp:38:33: error: no member named 'Attributes' in namespace 'AZ::Edit'; did you mean 'AZ::Serialize::Attributes'?
+                    ->Attribute(AZ::Edit::Attributes::Min, 0.0f)
+                                ^~~~~~~~~~~~~~~~~~~~
+                                AZ::Serialize::Attributes
+/home/haoyin/o3de/Code/Framework/AzCore/./AzCore/Serialization/SerializeContext.h:98:19: note: 'AZ::Serialize::Attributes' declared here
+        namespace Attributes
+                  ^
+/home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarTemplate.cpp:38:43: error: no member named 'Min' in namespace 'AZ::Serialize::Attributes'; did you mean 'sin'?
+                    ->Attribute(AZ::Edit::Attributes::Min, 0.0f)
+                                          ^~~~~~~~~~~~~~~
+                                          sin
+/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/math.h:44:12: note: 'sin' declared here
+using std::sin;
+           ^
+/home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarTemplate.cpp:40:35: error: no member named 'UIHandlers' in namespace 'AZ::Edit'
+                        AZ::Edit::UIHandlers::Default,
+                        ~~~~~~~~~~^
+/home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarTemplate.cpp:44:33: error: no member named 'Attributes' in namespace 'AZ::Edit'; did you mean 'AZ::Serialize::Attributes'?
+                    ->Attribute(AZ::Edit::Attributes::Min, 0.0f);
+                                ^~~~~~~~~~~~~~~~~~~~
+                                AZ::Serialize::Attributes
+/home/haoyin/o3de/Code/Framework/AzCore/./AzCore/Serialization/SerializeContext.h:98:19: note: 'AZ::Serialize::Attributes' declared here
+        namespace Attributes
+                  ^
+/home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarTemplate.cpp:44:43: error: no member named 'Min' in namespace 'AZ::Serialize::Attributes'; did you mean 'sin'?
+                    ->Attribute(AZ::Edit::Attributes::Min, 0.0f);
+                                          ^~~~~~~~~~~~~~~
+                                          sin
+/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/math.h:44:12: note: 'sin' declared here
+using std::sin;
+           ^
+/home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarTemplate.cpp:68:19: error: member access into incomplete type 'AZ::EditContext'
+                ec->Class<LidarTemplate>("Lidar Template", "Lidar Template")
+                  ^
+/home/haoyin/o3de/Code/Framework/AzCore/./AzCore/Serialization/SerializeContext.h:50:11: note: forward declaration of 'AZ::EditContext'
+    class EditContext;
+          ^
+/home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarTemplate.cpp:69:45: error: no member named 'UIHandlers' in namespace 'AZ::Edit'
+                    ->DataElement(AZ::Edit::UIHandlers::Default, &LidarTemplate::m_name, "Name", "Custom lidar name")
+                                  ~~~~~~~~~~^
+/home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarTemplate.cpp:70:45: error: no member named 'UIHandlers' in namespace 'AZ::Edit'
+                    ->DataElement(AZ::Edit::UIHandlers::Default, &LidarTemplate::m_layers, "Layers", "Vertical dimension")
+                                  ~~~~~~~~~~^
+/home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarTemplate.cpp:72:35: error: no member named 'UIHandlers' in namespace 'AZ::Edit'
+                        AZ::Edit::UIHandlers::Default, &LidarTemplate::m_numberOfIncrements, "Points per layer", "Horizontal dimension")
+                        ~~~~~~~~~~^
+/home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarTemplate.cpp:74:35: error: no member named 'UIHandlers' in namespace 'AZ::Edit'
+                        AZ::Edit::UIHandlers::Default, &LidarTemplate::m_minHAngle, "Min horizontal angle [Deg]", "Left-most reach of fov")
+                        ~~~~~~~~~~^
+/home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarTemplate.cpp:75:33: error: no member named 'Attributes' in namespace 'AZ::Edit'; did you mean 'AZ::Serialize::Attributes'?
+                    ->Attribute(AZ::Edit::Attributes::Min, -180.0f)
+                                ^~~~~~~~~~~~~~~~~~~~
+                                AZ::Serialize::Attributes
+/home/haoyin/o3de/Code/Framework/AzCore/./AzCore/Serialization/SerializeContext.h:98:19: note: 'AZ::Serialize::Attributes' declared here
+        namespace Attributes
+                  ^
+/home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarTemplate.cpp:75:43: error: no member named 'Min' in namespace 'AZ::Serialize::Attributes'; did you mean 'sin'?
+                    ->Attribute(AZ::Edit::Attributes::Min, -180.0f)
+                                          ^~~~~~~~~~~~~~~
+                                          sin
+/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/math.h:44:12: note: 'sin' declared here
+using std::sin;
+           ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+[37/328] Building CXX object External/ROS2-5e8367e7/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Lidar/LidarTemplateUtils.cpp.o
+FAILED: External/ROS2-5e8367e7/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Lidar/LidarTemplateUtils.cpp.o 
+/usr/bin/clang++-14 -DAZ_BUILD_CONFIGURATION_TYPE=\"profile\" -DAZ_ENABLE_DEBUG_TOOLS -DAZ_ENABLE_TRACING -DAZ_PHYSICS_DEBUG_ENABLED -DAZ_PROFILE_BUILD -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DIMGUI_API_IMPORT -DIMGUI_ENABLED -DIMGUI_INCLUDE_IMGUI_USER_H -DLINUX -DLINUX64 -DNDEBUG -DO3DE_STACK_CAPTURE_DEPTH=3 -DPAL_TRAIT_LINUX_WINDOW_MANAGER_XCB -DPHYSX_ENABLE_MULTI_THREADING -DRCUTILS_ENABLE_FAULT_INJECTION -D_FORTIFY_SOURCE=2 -D_HAS_EXCEPTIONS=0 -D_PROFILE -D__linux__ -DCMAKE_INTDIR=\"profile\" -I/home/haoyin/O3DE/Gems/ROS2/Code/Include -I/home/haoyin/O3DE/Gems/ROS2/Code/Source -I/home/haoyin/O3DE/Gems/ROS2/Code/Source/VehicleDynamics -I/opt/ros/humble/include -I/opt/ros/humble/include/nav_msgs -I/opt/ros/humble/lib/x86_64-linux-gnu/urdfdom/cmake/../../../../include/urdfdom -I/opt/ros/humble/lib/x86_64-linux-gnu/urdfdom_headers/cmake/../../../../include/urdfdom_headers -I/opt/ros/humble/include/tf2_ros -I/opt/ros/humble/include/rclcpp_components -I/opt/ros/humble/include/message_filters -I/opt/ros/humble/include/rclcpp_action -I/opt/ros/humble/include/tf2 -I/opt/ros/humble/include/ackermann_msgs -I/opt/ros/humble/include/gazebo_msgs -I/home/haoyin/o3de/Gems/StartingPointInput/Code/Include -I/home/haoyin/o3de/Code/Framework/AzCore/. -I/home/haoyin/o3de/Code/Framework/AzCore/Platform/Linux -I/home/haoyin/o3de/Code/Framework/AzCore/Platform/Common -I/home/haoyin/o3de/Code/Framework/AzFramework/. -I/home/haoyin/o3de/Code/Framework/AzFramework/Platform/Linux -I/home/haoyin/o3de/Code/Framework/AzFramework/Platform/Common/Xcb -I/home/haoyin/o3de/Code/Framework/AzNetworking/. -I/home/haoyin/o3de/Code/Framework/AzNetworking/Platform/Common -I/home/haoyin/o3de/Code/Framework/AzNetworking/Platform/Linux -I/home/haoyin/O3DE/Projects/WarehouseTest/build/linux/o3de/Code/Framework/AzNetworking/Azcg/Generated/AzNetworking -I/home/haoyin/o3de/Gems/Atom/RPI/Code/Include -I/home/haoyin/o3de/Gems/Atom/RPI/Code/External -I/home/haoyin/o3de/Code/Framework/AtomCore/. -I/home/haoyin/o3de/Gems/Atom/RHI/Code/Include -I/home/haoyin/o3de/Gems/Atom/Feature/Common/Code/Include -I/home/haoyin/o3de/Gems/Atom/Feature/Common/Code/Source -I/home/haoyin/o3de/Gems/Atom/Utils/Code/Include -I/home/haoyin/o3de/Gems/Profiler/Code/Include -I/home/haoyin/o3de/Gems/ImGui/Code/../External/ImGui/v1.82 -I/home/haoyin/o3de/Gems/ImGui/Code/Include -I/home/haoyin/o3de/Gems/Atom/Feature/Common/Code/3rdParty/ACES -I/home/haoyin/o3de/Gems/Atom/Component/DebugCamera/Code/Include -I/home/haoyin/o3de/Gems/PhysX/Code/. -I/home/haoyin/o3de/Gems/PhysX/Code/Source -I/home/haoyin/o3de/Gems/PhysX/Code/Source/Platform/Linux -I/home/haoyin/o3de/Gems/PhysX/Code/Include -I/home/haoyin/o3de/Code/Legacy/CryCommon/. -I/home/haoyin/o3de/Code/Legacy/CryCommon/.. -I/home/haoyin/o3de/Code/Legacy/CryCommon/Platform/Linux -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/tf2_msgs -isystem /opt/ros/humble/include/trajectory_msgs -isystem /opt/ros/humble/include/control_msgs -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/class_loader -isystem /opt/ros/humble/include/composition_interfaces -isystem /opt/ros/humble/include/unique_identifier_msgs -isystem /opt/ros/humble/include/action_msgs -isystem /opt/ros/humble/include/rcl_action -isystem /home/haoyin/.o3de/3rdParty/packages/Lua-5.4.4-rev1-linux/Lua/include -isystem /home/haoyin/.o3de/3rdParty/packages/RapidJSON-1.1.0-rev1-multiplatform/RapidJSON/include -isystem /home/haoyin/.o3de/3rdParty/packages/RapidXML-1.13-rev1-multiplatform/RapidXML/include -isystem /home/haoyin/.o3de/3rdParty/packages/zlib-1.2.11-rev5-linux/zlib/include -isystem /home/haoyin/.o3de/3rdParty/packages/zstd-1.35-multiplatform/zstd/lib -isystem /home/haoyin/.o3de/3rdParty/packages/cityhash-1.1-multiplatform/cityhash/src -isystem /home/haoyin/.o3de/3rdParty/packages/lz4-1.9.3-vcpkg-rev4-linux/lz4/lz4/include -isystem /home/haoyin/.o3de/3rdParty/packages/png-1.6.37-rev2-linux/png/include -isystem /home/haoyin/.o3de/3rdParty/packages/tiff-4.2.0.15-rev3-linux/tiff/include -isystem /home/haoyin/.o3de/3rdParty/packages/PhysX-4.1.2.29882248-rev5-linux/PhysX/shared/include -isystem /home/haoyin/.o3de/3rdParty/packages/PhysX-4.1.2.29882248-rev5-linux/PhysX/shared/include/foundation -isystem /home/haoyin/.o3de/3rdParty/packages/PhysX-4.1.2.29882248-rev5-linux/PhysX/shared/include/geometry -fno-exceptions -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Werror -Wno-inconsistent-missing-override -Wrange-loop-analysis -Wno-unknown-warning-option -Wno-parentheses -Wno-reorder -Wno-switch -Wno-undefined-var-template -msse4.1  -O2 -g -fstack-protector-all -fstack-check -fPIC -std=c++17 -MD -MT External/ROS2-5e8367e7/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Lidar/LidarTemplateUtils.cpp.o -MF External/ROS2-5e8367e7/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Lidar/LidarTemplateUtils.cpp.o.d -o External/ROS2-5e8367e7/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Lidar/LidarTemplateUtils.cpp.o -c /home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarTemplateUtils.cpp
+/home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarTemplateUtils.cpp:184:39: error: incomplete type 'AZ::Quaternion' named in nested name specifier
+            const auto rotation = AZ::Quaternion::CreateFromEulerRadiansZYX(
+                                  ~~~~^~~~~~~~~~~~
+/home/haoyin/o3de/Code/Framework/AzCore/./AzCore/Math/MathUtils.h:41:11: note: forward declaration of 'AZ::Quaternion'
+    class Quaternion;
+          ^
+1 error generated.
+[38/328] Building CXX object External/Gem-ab988405/CMakeFiles/WarehouseTest.dir/profile/Source/WarehouseTestModule.cpp.o
+[39/328] Building CXX object External/ROS2-5e8367e7/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Lidar/LidarRegistrarSystemComponent.cpp.o
+FAILED: External/ROS2-5e8367e7/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Lidar/LidarRegistrarSystemComponent.cpp.o 
+/usr/bin/clang++-14 -DAZ_BUILD_CONFIGURATION_TYPE=\"profile\" -DAZ_ENABLE_DEBUG_TOOLS -DAZ_ENABLE_TRACING -DAZ_PHYSICS_DEBUG_ENABLED -DAZ_PROFILE_BUILD -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DIMGUI_API_IMPORT -DIMGUI_ENABLED -DIMGUI_INCLUDE_IMGUI_USER_H -DLINUX -DLINUX64 -DNDEBUG -DO3DE_STACK_CAPTURE_DEPTH=3 -DPAL_TRAIT_LINUX_WINDOW_MANAGER_XCB -DPHYSX_ENABLE_MULTI_THREADING -DRCUTILS_ENABLE_FAULT_INJECTION -D_FORTIFY_SOURCE=2 -D_HAS_EXCEPTIONS=0 -D_PROFILE -D__linux__ -DCMAKE_INTDIR=\"profile\" -I/home/haoyin/O3DE/Gems/ROS2/Code/Include -I/home/haoyin/O3DE/Gems/ROS2/Code/Source -I/home/haoyin/O3DE/Gems/ROS2/Code/Source/VehicleDynamics -I/opt/ros/humble/include -I/opt/ros/humble/include/nav_msgs -I/opt/ros/humble/lib/x86_64-linux-gnu/urdfdom/cmake/../../../../include/urdfdom -I/opt/ros/humble/lib/x86_64-linux-gnu/urdfdom_headers/cmake/../../../../include/urdfdom_headers -I/opt/ros/humble/include/tf2_ros -I/opt/ros/humble/include/rclcpp_components -I/opt/ros/humble/include/message_filters -I/opt/ros/humble/include/rclcpp_action -I/opt/ros/humble/include/tf2 -I/opt/ros/humble/include/ackermann_msgs -I/opt/ros/humble/include/gazebo_msgs -I/home/haoyin/o3de/Gems/StartingPointInput/Code/Include -I/home/haoyin/o3de/Code/Framework/AzCore/. -I/home/haoyin/o3de/Code/Framework/AzCore/Platform/Linux -I/home/haoyin/o3de/Code/Framework/AzCore/Platform/Common -I/home/haoyin/o3de/Code/Framework/AzFramework/. -I/home/haoyin/o3de/Code/Framework/AzFramework/Platform/Linux -I/home/haoyin/o3de/Code/Framework/AzFramework/Platform/Common/Xcb -I/home/haoyin/o3de/Code/Framework/AzNetworking/. -I/home/haoyin/o3de/Code/Framework/AzNetworking/Platform/Common -I/home/haoyin/o3de/Code/Framework/AzNetworking/Platform/Linux -I/home/haoyin/O3DE/Projects/WarehouseTest/build/linux/o3de/Code/Framework/AzNetworking/Azcg/Generated/AzNetworking -I/home/haoyin/o3de/Gems/Atom/RPI/Code/Include -I/home/haoyin/o3de/Gems/Atom/RPI/Code/External -I/home/haoyin/o3de/Code/Framework/AtomCore/. -I/home/haoyin/o3de/Gems/Atom/RHI/Code/Include -I/home/haoyin/o3de/Gems/Atom/Feature/Common/Code/Include -I/home/haoyin/o3de/Gems/Atom/Feature/Common/Code/Source -I/home/haoyin/o3de/Gems/Atom/Utils/Code/Include -I/home/haoyin/o3de/Gems/Profiler/Code/Include -I/home/haoyin/o3de/Gems/ImGui/Code/../External/ImGui/v1.82 -I/home/haoyin/o3de/Gems/ImGui/Code/Include -I/home/haoyin/o3de/Gems/Atom/Feature/Common/Code/3rdParty/ACES -I/home/haoyin/o3de/Gems/Atom/Component/DebugCamera/Code/Include -I/home/haoyin/o3de/Gems/PhysX/Code/. -I/home/haoyin/o3de/Gems/PhysX/Code/Source -I/home/haoyin/o3de/Gems/PhysX/Code/Source/Platform/Linux -I/home/haoyin/o3de/Gems/PhysX/Code/Include -I/home/haoyin/o3de/Code/Legacy/CryCommon/. -I/home/haoyin/o3de/Code/Legacy/CryCommon/.. -I/home/haoyin/o3de/Code/Legacy/CryCommon/Platform/Linux -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/tf2_msgs -isystem /opt/ros/humble/include/trajectory_msgs -isystem /opt/ros/humble/include/control_msgs -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/class_loader -isystem /opt/ros/humble/include/composition_interfaces -isystem /opt/ros/humble/include/unique_identifier_msgs -isystem /opt/ros/humble/include/action_msgs -isystem /opt/ros/humble/include/rcl_action -isystem /home/haoyin/.o3de/3rdParty/packages/Lua-5.4.4-rev1-linux/Lua/include -isystem /home/haoyin/.o3de/3rdParty/packages/RapidJSON-1.1.0-rev1-multiplatform/RapidJSON/include -isystem /home/haoyin/.o3de/3rdParty/packages/RapidXML-1.13-rev1-multiplatform/RapidXML/include -isystem /home/haoyin/.o3de/3rdParty/packages/zlib-1.2.11-rev5-linux/zlib/include -isystem /home/haoyin/.o3de/3rdParty/packages/zstd-1.35-multiplatform/zstd/lib -isystem /home/haoyin/.o3de/3rdParty/packages/cityhash-1.1-multiplatform/cityhash/src -isystem /home/haoyin/.o3de/3rdParty/packages/lz4-1.9.3-vcpkg-rev4-linux/lz4/lz4/include -isystem /home/haoyin/.o3de/3rdParty/packages/png-1.6.37-rev2-linux/png/include -isystem /home/haoyin/.o3de/3rdParty/packages/tiff-4.2.0.15-rev3-linux/tiff/include -isystem /home/haoyin/.o3de/3rdParty/packages/PhysX-4.1.2.29882248-rev5-linux/PhysX/shared/include -isystem /home/haoyin/.o3de/3rdParty/packages/PhysX-4.1.2.29882248-rev5-linux/PhysX/shared/include/foundation -isystem /home/haoyin/.o3de/3rdParty/packages/PhysX-4.1.2.29882248-rev5-linux/PhysX/shared/include/geometry -fno-exceptions -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Werror -Wno-inconsistent-missing-override -Wrange-loop-analysis -Wno-unknown-warning-option -Wno-parentheses -Wno-reorder -Wno-switch -Wno-undefined-var-template -msse4.1  -O2 -g -fstack-protector-all -fstack-check -fPIC -std=c++17 -MD -MT External/ROS2-5e8367e7/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Lidar/LidarRegistrarSystemComponent.cpp.o -MF External/ROS2-5e8367e7/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Lidar/LidarRegistrarSystemComponent.cpp.o.d -o External/ROS2-5e8367e7/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Lidar/LidarRegistrarSystemComponent.cpp.o -c /home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarRegistrarSystemComponent.cpp
+/home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarRegistrarSystemComponent.cpp:47:29: error: member access into incomplete type 'AZ::SerializeContext'
+            serializeContext->Class<LidarRegistrarSystemComponent, AZ::Component>()->Version(0);
+                            ^
+/home/haoyin/o3de/Code/Framework/AzCore/./AzCore/Math/Crc.h:53:11: note: forward declaration of 'AZ::SerializeContext'
+    class SerializeContext;
+          ^
+/home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarRegistrarSystemComponent.cpp:49:64: error: member access into incomplete type 'AZ::SerializeContext'
+            if (AZ::EditContext* editContext = serializeContext->GetEditContext())
+                                                               ^
+/home/haoyin/o3de/Code/Framework/AzCore/./AzCore/Math/Crc.h:53:11: note: forward declaration of 'AZ::SerializeContext'
+    class SerializeContext;
+          ^
+/home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarRegistrarSystemComponent.cpp:49:21: error: no member named 'EditContext' in namespace 'AZ'
+            if (AZ::EditContext* editContext = serializeContext->GetEditContext())
+                ~~~~^
+/home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarRegistrarSystemComponent.cpp:49:34: error: use of undeclared identifier 'editContext'
+            if (AZ::EditContext* editContext = serializeContext->GetEditContext())
+                                 ^
+/home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarRegistrarSystemComponent.cpp:51:17: error: use of undeclared identifier 'editContext'
+                editContext
+                ^
+/home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarRegistrarSystemComponent.cpp:54:40: error: no member named 'Edit' in namespace 'AZ'
+                    ->ClassElement(AZ::Edit::ClassElements::EditorData, "")
+                                   ~~~~^
+/home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarRegistrarSystemComponent.cpp:55:37: error: no member named 'Edit' in namespace 'AZ'
+                    ->Attribute(AZ::Edit::Attributes::AppearsInAddComponentMenu, AZ_CRC("System"))
+                                ~~~~^
+/home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarRegistrarSystemComponent.cpp:56:37: error: no member named 'Edit' in namespace 'AZ'
+                    ->Attribute(AZ::Edit::Attributes::Category, "ROS2")
+                                ~~~~^
+/home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarRegistrarSystemComponent.cpp:57:37: error: no member named 'Edit' in namespace 'AZ'
+                    ->Attribute(AZ::Edit::Attributes::AutoExpand, true);
+                                ~~~~^
+In file included from /home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarRegistrarSystemComponent.cpp:9:
+In file included from /home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarRegistrarSystemComponent.h:11:
+In file included from /home/haoyin/o3de/Code/Framework/AzCore/./AzCore/Component/Component.h:17:
+In file included from /home/haoyin/o3de/Code/Framework/AzCore/./AzCore/Component/ComponentBus.h:18:
+In file included from /home/haoyin/o3de/Code/Framework/AzCore/./AzCore/Memory/SystemAllocator.h:10:
+In file included from /home/haoyin/o3de/Code/Framework/AzCore/./AzCore/Memory/Memory.h:13:
+In file included from /home/haoyin/o3de/Code/Framework/AzCore/./AzCore/Memory/SimpleSchemaAllocator.h:14:
+In file included from /home/haoyin/o3de/Code/Framework/AzCore/./AzCore/Memory/AllocatorBase.h:10:
+In file included from /home/haoyin/o3de/Code/Framework/AzCore/./AzCore/Memory/IAllocator.h:11:
+In file included from /home/haoyin/o3de/Code/Framework/AzCore/./AzCore/RTTI/RTTI.h:11:
+/home/haoyin/o3de/Code/Framework/AzCore/./AzCore/RTTI/TypeInfo.h:501:13: error: static_assert failed due to requirement 'AZ::Internal::HasAZTypeInfoIntrusive<AZ::SerializeContext, void>' "You should use AZ_TYPE_INFO or AZ_RTTI in your class/struct, or use AZ_TYPE_INFO_SPECIALIZE() externally. Make sure to include the header containing this information (usually your class header)."
+            static_assert(AZ::Internal::HasAZTypeInfoIntrusive<T>,
+            ^             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/haoyin/o3de/Code/Framework/AzCore/./AzCore/RTTI/RTTI.h:614:88: note: in instantiation of function template specialization 'AZ::AzTypeInfo<AZ::SerializeContext, false>::Uuid<AZ::CanonicalTypeIdTag>' requested here
+            return ptr ? reinterpret_cast<T>(ptr->RTTI_AddressOf(AzTypeInfo<CastType>::Uuid())) : nullptr;
+                                                                                       ^
+/home/haoyin/o3de/Code/Framework/AzCore/./AzCore/RTTI/RTTI.h:912:30: note: in instantiation of function template specialization 'AZ::Internal::RttiCastHelper<AZ::SerializeContext *, AZ::ReflectContext *>' requested here
+        return AZ::Internal::RttiCastHelper<T>(ptr, typename HasAZRtti<AZStd::remove_pointer_t<U>>::kind_type());
+                             ^
+/home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarRegistrarSystemComponent.cpp:45:37: note: in instantiation of function template specialization 'AZ::RttiCast<AZ::SerializeContext *, AZ::ReflectContext *>' requested here
+        if (auto serializeContext = azrtti_cast<AZ::SerializeContext*>(context))
+                                    ^
+/home/haoyin/o3de/Code/Framework/AzCore/./AzCore/RTTI/RTTI.h:40:33: note: expanded from macro 'azrtti_cast'
+    #define azrtti_cast     AZ::RttiCast
+                                ^
+In file included from /home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarRegistrarSystemComponent.cpp:9:
+In file included from /home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarRegistrarSystemComponent.h:11:
+In file included from /home/haoyin/o3de/Code/Framework/AzCore/./AzCore/Component/Component.h:17:
+In file included from /home/haoyin/o3de/Code/Framework/AzCore/./AzCore/Component/ComponentBus.h:18:
+In file included from /home/haoyin/o3de/Code/Framework/AzCore/./AzCore/Memory/SystemAllocator.h:10:
+In file included from /home/haoyin/o3de/Code/Framework/AzCore/./AzCore/Memory/Memory.h:13:
+In file included from /home/haoyin/o3de/Code/Framework/AzCore/./AzCore/Memory/SimpleSchemaAllocator.h:14:
+In file included from /home/haoyin/o3de/Code/Framework/AzCore/./AzCore/Memory/AllocatorBase.h:10:
+In file included from /home/haoyin/o3de/Code/Framework/AzCore/./AzCore/Memory/IAllocator.h:11:
+In file included from /home/haoyin/o3de/Code/Framework/AzCore/./AzCore/RTTI/RTTI.h:11:
+/home/haoyin/o3de/Code/Framework/AzCore/./AzCore/RTTI/TypeInfo.h:504:20: error: incomplete type 'AZ::SerializeContext' named in nested name specifier
+            return T::TYPEINFO_Uuid();
+                   ^~~
+/home/haoyin/o3de/Code/Framework/AzCore/./AzCore/Math/Crc.h:53:11: note: forward declaration of 'AZ::SerializeContext'
+    class SerializeContext;
+          ^
+11 errors generated.
+[40/328] Building CXX object External/ROS2-5e8367e7/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Lidar/LidarRaycaster.cpp.o
+FAILED: External/ROS2-5e8367e7/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Lidar/LidarRaycaster.cpp.o 
+/usr/bin/clang++-14 -DAZ_BUILD_CONFIGURATION_TYPE=\"profile\" -DAZ_ENABLE_DEBUG_TOOLS -DAZ_ENABLE_TRACING -DAZ_PHYSICS_DEBUG_ENABLED -DAZ_PROFILE_BUILD -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DIMGUI_API_IMPORT -DIMGUI_ENABLED -DIMGUI_INCLUDE_IMGUI_USER_H -DLINUX -DLINUX64 -DNDEBUG -DO3DE_STACK_CAPTURE_DEPTH=3 -DPAL_TRAIT_LINUX_WINDOW_MANAGER_XCB -DPHYSX_ENABLE_MULTI_THREADING -DRCUTILS_ENABLE_FAULT_INJECTION -D_FORTIFY_SOURCE=2 -D_HAS_EXCEPTIONS=0 -D_PROFILE -D__linux__ -DCMAKE_INTDIR=\"profile\" -I/home/haoyin/O3DE/Gems/ROS2/Code/Include -I/home/haoyin/O3DE/Gems/ROS2/Code/Source -I/home/haoyin/O3DE/Gems/ROS2/Code/Source/VehicleDynamics -I/opt/ros/humble/include -I/opt/ros/humble/include/nav_msgs -I/opt/ros/humble/lib/x86_64-linux-gnu/urdfdom/cmake/../../../../include/urdfdom -I/opt/ros/humble/lib/x86_64-linux-gnu/urdfdom_headers/cmake/../../../../include/urdfdom_headers -I/opt/ros/humble/include/tf2_ros -I/opt/ros/humble/include/rclcpp_components -I/opt/ros/humble/include/message_filters -I/opt/ros/humble/include/rclcpp_action -I/opt/ros/humble/include/tf2 -I/opt/ros/humble/include/ackermann_msgs -I/opt/ros/humble/include/gazebo_msgs -I/home/haoyin/o3de/Gems/StartingPointInput/Code/Include -I/home/haoyin/o3de/Code/Framework/AzCore/. -I/home/haoyin/o3de/Code/Framework/AzCore/Platform/Linux -I/home/haoyin/o3de/Code/Framework/AzCore/Platform/Common -I/home/haoyin/o3de/Code/Framework/AzFramework/. -I/home/haoyin/o3de/Code/Framework/AzFramework/Platform/Linux -I/home/haoyin/o3de/Code/Framework/AzFramework/Platform/Common/Xcb -I/home/haoyin/o3de/Code/Framework/AzNetworking/. -I/home/haoyin/o3de/Code/Framework/AzNetworking/Platform/Common -I/home/haoyin/o3de/Code/Framework/AzNetworking/Platform/Linux -I/home/haoyin/O3DE/Projects/WarehouseTest/build/linux/o3de/Code/Framework/AzNetworking/Azcg/Generated/AzNetworking -I/home/haoyin/o3de/Gems/Atom/RPI/Code/Include -I/home/haoyin/o3de/Gems/Atom/RPI/Code/External -I/home/haoyin/o3de/Code/Framework/AtomCore/. -I/home/haoyin/o3de/Gems/Atom/RHI/Code/Include -I/home/haoyin/o3de/Gems/Atom/Feature/Common/Code/Include -I/home/haoyin/o3de/Gems/Atom/Feature/Common/Code/Source -I/home/haoyin/o3de/Gems/Atom/Utils/Code/Include -I/home/haoyin/o3de/Gems/Profiler/Code/Include -I/home/haoyin/o3de/Gems/ImGui/Code/../External/ImGui/v1.82 -I/home/haoyin/o3de/Gems/ImGui/Code/Include -I/home/haoyin/o3de/Gems/Atom/Feature/Common/Code/3rdParty/ACES -I/home/haoyin/o3de/Gems/Atom/Component/DebugCamera/Code/Include -I/home/haoyin/o3de/Gems/PhysX/Code/. -I/home/haoyin/o3de/Gems/PhysX/Code/Source -I/home/haoyin/o3de/Gems/PhysX/Code/Source/Platform/Linux -I/home/haoyin/o3de/Gems/PhysX/Code/Include -I/home/haoyin/o3de/Code/Legacy/CryCommon/. -I/home/haoyin/o3de/Code/Legacy/CryCommon/.. -I/home/haoyin/o3de/Code/Legacy/CryCommon/Platform/Linux -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/tf2_msgs -isystem /opt/ros/humble/include/trajectory_msgs -isystem /opt/ros/humble/include/control_msgs -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/class_loader -isystem /opt/ros/humble/include/composition_interfaces -isystem /opt/ros/humble/include/unique_identifier_msgs -isystem /opt/ros/humble/include/action_msgs -isystem /opt/ros/humble/include/rcl_action -isystem /home/haoyin/.o3de/3rdParty/packages/Lua-5.4.4-rev1-linux/Lua/include -isystem /home/haoyin/.o3de/3rdParty/packages/RapidJSON-1.1.0-rev1-multiplatform/RapidJSON/include -isystem /home/haoyin/.o3de/3rdParty/packages/RapidXML-1.13-rev1-multiplatform/RapidXML/include -isystem /home/haoyin/.o3de/3rdParty/packages/zlib-1.2.11-rev5-linux/zlib/include -isystem /home/haoyin/.o3de/3rdParty/packages/zstd-1.35-multiplatform/zstd/lib -isystem /home/haoyin/.o3de/3rdParty/packages/cityhash-1.1-multiplatform/cityhash/src -isystem /home/haoyin/.o3de/3rdParty/packages/lz4-1.9.3-vcpkg-rev4-linux/lz4/lz4/include -isystem /home/haoyin/.o3de/3rdParty/packages/png-1.6.37-rev2-linux/png/include -isystem /home/haoyin/.o3de/3rdParty/packages/tiff-4.2.0.15-rev3-linux/tiff/include -isystem /home/haoyin/.o3de/3rdParty/packages/PhysX-4.1.2.29882248-rev5-linux/PhysX/shared/include -isystem /home/haoyin/.o3de/3rdParty/packages/PhysX-4.1.2.29882248-rev5-linux/PhysX/shared/include/foundation -isystem /home/haoyin/.o3de/3rdParty/packages/PhysX-4.1.2.29882248-rev5-linux/PhysX/shared/include/geometry -fno-exceptions -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Werror -Wno-inconsistent-missing-override -Wrange-loop-analysis -Wno-unknown-warning-option -Wno-parentheses -Wno-reorder -Wno-switch -Wno-undefined-var-template -msse4.1  -O2 -g -fstack-protector-all -fstack-check -fPIC -std=c++17 -MD -MT External/ROS2-5e8367e7/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Lidar/LidarRaycaster.cpp.o -MF External/ROS2-5e8367e7/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Lidar/LidarRaycaster.cpp.o.d -o External/ROS2-5e8367e7/Code/CMakeFiles/ROS2.Static.dir/profile/Source/Lidar/LidarRaycaster.cpp.o -c /home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarRaycaster.cpp
+/home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarRaycaster.cpp:93:68: error: no template named 'make_shared' in namespace 'AZStd'; did you mean 'std::make_shared'?
+            AZStd::shared_ptr<AzPhysics::RayCastRequest> request = AZStd::make_shared<AzPhysics::RayCastRequest>();
+                                                                   ^~~~~~~~~~~~~~~~~~
+                                                                   std::make_shared
+/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/shared_ptr.h:1005:5: note: 'std::make_shared' declared here
+    make_shared(_Args&&... __args)
+    ^
+/home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarRaycaster.cpp:93:68: error: no template named 'make_shared' in namespace 'AZStd'; did you mean 'std::make_shared'?
+            AZStd::shared_ptr<AzPhysics::RayCastRequest> request = AZStd::make_shared<AzPhysics::RayCastRequest>();
+                                                                   ^~~~~~~~~~~~~~~~~~
+                                                                   std::make_shared
+/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/shared_ptr.h:1005:5: note: 'std::make_shared' declared here
+    make_shared(_Args&&... __args)
+    ^
+/home/haoyin/O3DE/Gems/ROS2/Code/Source/Lidar/LidarRaycaster.cpp:93:58: error: no viable conversion from 'shared_ptr<_NonArray<AzPhysics::RayCastRequest>>' (aka 'shared_ptr<AzPhysics::RayCastRequest>') to 'AZStd::shared_ptr<AzPhysics::RayCastRequest>'
+            AZStd::shared_ptr<AzPhysics::RayCastRequest> request = AZStd::make_shared<AzPhysics::RayCastRequest>();
+                                                         ^         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/haoyin/o3de/Code/Framework/AzCore/./AzCore/std/smart_ptr/shared_ptr.h:147:9: note: candidate constructor not viable: no known conversion from 'shared_ptr<_NonArray<AzPhysics::RayCastRequest>>' (aka 'shared_ptr<AzPhysics::RayCastRequest>') to 'std::nullptr_t' for 1st argument
+        shared_ptr(nullptr_t)
+        ^
+/home/haoyin/o3de/Code/Framework/AzCore/./AzCore/std/smart_ptr/shared_ptr.h:308:9: note: candidate constructor not viable: no known conversion from 'shared_ptr<_NonArray<AzPhysics::RayCastRequest>>' (aka 'shared_ptr<AzPhysics::RayCastRequest>') to 'AZStd::shared_ptr<AzPhysics::RayCastRequest> &&' for 1st argument
+        shared_ptr(shared_ptr&& r)
+        ^
+/home/haoyin/o3de/Code/Framework/AzCore/./AzCore/std/smart_ptr/shared_ptr.h:344:9: note: candidate constructor not viable: no known conversion from 'shared_ptr<_NonArray<AzPhysics::RayCastRequest>>' (aka 'shared_ptr<AzPhysics::RayCastRequest>') to 'const AZStd::shared_ptr<AzPhysics::RayCastRequest>::this_type &' (aka 'const shared_ptr<AzPhysics::RayCastRequest> &') for 1st argument
+        shared_ptr(const this_type& r)
+        ^
+/home/haoyin/o3de/Code/Framework/AzCore/./AzCore/std/smart_ptr/shared_ptr.h:197:9: note: candidate template ignored: could not match 'AZStd::shared_ptr' against 'std::shared_ptr'
+        shared_ptr(shared_ptr<Y> const& r, typename AZStd::Internal::sp_enable_if_convertible<Y, T>::type = AZStd::Internal::sp_empty())
+        ^
+/home/haoyin/o3de/Code/Framework/AzCore/./AzCore/std/smart_ptr/shared_ptr.h:316:9: note: candidate template ignored: could not match 'AZStd::shared_ptr' against 'std::shared_ptr'
+        shared_ptr(shared_ptr<Y>&& r, typename AZStd::Internal::sp_enable_if_convertible<Y, T>::type = AZStd::Internal::sp_empty())
+        ^
+/home/haoyin/o3de/Code/Framework/AzCore/./AzCore/std/smart_ptr/shared_ptr.h:335:9: note: candidate template ignored: could not match 'unique_ptr' against 'shared_ptr'
+        shared_ptr(unique_ptr<Y, Deleter>&& r)
+        ^
+/home/haoyin/o3de/Code/Framework/AzCore/./AzCore/std/smart_ptr/shared_ptr.h:152:18: note: explicit constructor is not a candidate
+        explicit shared_ptr(Y* p)
+                 ^
+/home/haoyin/o3de/Code/Framework/AzCore/./AzCore/std/smart_ptr/shared_ptr.h:180:18: note: explicit constructor is not a candidate
+        explicit shared_ptr(weak_ptr<Y> const& r)
+                 ^
+3 errors generated.
+[41/328] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/Editor/Assets/ScriptCanvasAssetHelpers.cpp.o
+[42/328] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/Editor/Components/IconComponent.cpp.o
+[43/328] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/Editor/Components/EditorGraphVariableManagerComponent.cpp.o
+[44/328] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/Editor/Include/ScriptCanvas/Components/NodeReplacementSystem.cpp.o
+[45/328] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/Editor/Include/ScriptCanvas/Components/EditorScriptCanvasComponentSerializer.cpp.o
+[46/328] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/Editor/GraphCanvas/Components/DynamicOrderingDynamicSlotComponent.cpp.o
+[47/328] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/ScriptCanvas.Editor.Static_autogen/mocs_compilation_profile.cpp.o
+[48/328] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/Editor/Include/ScriptCanvas/Components/EditorDeprecationData.cpp.o
+[49/328] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/Editor/Assets/ScriptCanvasFileHandling.cpp.o
+[50/328] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/Editor/GraphCanvas/Components/DynamicSlotComponent.cpp.o
+[51/328] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/Editor/GraphCanvas/Components/NodeDescriptors/FunctionDefinitionNodeDescriptorComponent.cpp.o
+[52/328] Linking CXX shared module bin/profile/libWhiteBox.Editor.so
+[53/328] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/Editor/Settings.cpp.o
+[54/328] Building CXX object External/StartingPointInput-48b7c857/Code/CMakeFiles/StartingPointInput.dir/profile/Source/StartingPointInputGem.cpp.o
+[55/328] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/Editor/GraphCanvas/Components/NodeDescriptors/GetVariableNodeDescriptorComponent.cpp.o
+[56/328] Building CXX object External/StartingPointInput-48b7c857/Code/CMakeFiles/StartingPointInput.Editor.dir/profile/Source/StartingPointInputGem.cpp.o
+[57/328] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/Editor/Assets/ScriptCanvasUndoHelper.cpp.o
+[58/328] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/Editor/GraphCanvas/Components/MappingComponent.cpp.o
+[59/328] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/Editor/Components/EditorScriptCanvasComponent.cpp.o
+[60/328] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/Editor/Components/EditorUtils.cpp.o
+[61/328] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/Editor/ReflectComponent.cpp.o
+[62/328] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/Editor/Components/GraphUpgrade.cpp.o
+[63/328] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/Editor/ScriptCanvasEditorGem.cpp.o
+[64/328] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/Editor/SystemComponent.cpp.o
+[65/328] Building CXX object External/ScriptCanvas-0705c519/Code/CMakeFiles/ScriptCanvas.Editor.Static.dir/profile/Editor/Components/EditorGraph.cpp.o
+ninja: build stopped: subcommand failed.
