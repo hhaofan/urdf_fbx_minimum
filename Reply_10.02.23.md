@@ -1,0 +1,10 @@
+Hello @michalpelka ,
+Thanks for the detailed answer and suggestions. However, I encountered with some errors again when building the template project following the [template Readme](https://github.com/o3de/o3de-extras/blob/development/Templates/Ros2ProjectTemplate/README.md).
+
+- I switched to the development branch and the latest version both for o3de (0184d3df92ea39402d2a714ecca892032335c154) and o3de-extra (f1d8afed71cc31c7f538c548e2d5de4104b7501b). And when I followed the template instructions to build the [WarehouseSample](https://github.com/o3de/o3de-extras/tree/development/Gems/WarehouseSample) and the [RosRobotSample](https://github.com/o3de/o3de-extras/tree/development/Gems/RosRobotSample). I get errors listed below. Do you have some ideas on that?
+    - [error_log_WarehouseSample](https://github.com/hhaofan/urdf_fbx_minimum/blob/main/CMakeProjectBuildError_Warehousesample.log)
+    - [error_log_RosRobotSample](https://github.com/hhaofan/urdf_fbx_minimum/blob/main/CMakeError_RosRobotSample.log) 
+ - Also, when I look at the o3de branch I am using. It still seems to be some errors of the [o3de version](https://jenkins.build.o3de.org/blue/organizations/jenkins/O3DE/detail/development/3917/pipeline)(where I found in the [commit check](https://github.com/o3de/o3de/commits/development) for the o3de branch). So could you suggest some stable version of o3de that you are using when building projects? 
+ - As for the template you provided, I noticed that now both the WarehouseSample and the RosRobotSample become the Gem for o3de. And the project building sequence becomes: register these "project-like" Gems->enable these Gems, instead of the normal steps (register the ros2-gem->register the project). But when building the projects like [o3de-physics-test-scene](https://github.com/o3de/o3de-physics-test-scene), should we also regard them as the gems or should we build them following similar the building instructions in [RosConDemo](https://github.com/o3de/ROSConDemo#building-this-project)?
+
+Thanks in advance for your assistance!
