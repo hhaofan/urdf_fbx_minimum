@@ -1,6 +1,6 @@
 **How to build the projects like o3de-physics-test-scene**
 1. Change o3de and o3de-extras to the latest version: o3de(`f829a0687ae271966ad063c1278df9928f2c7b2b`), o3de-extra(`964526be84c7d89184995fa60b72338a3e714090`)
-2. Follow exactly the [ROS2 Project Template](https://github.com/o3de/o3de-extras/tree/development/Templates/Ros2ProjectTemplate) step 1 and step 2. Remember to synchronize the o3de-extra folders( (${O3DE_HOME}/Projects/o3de-extras)) as the (3aba9ad206c9acee4d9f6ee19f4c23360a899f79), as referred in [this reply](https://github.com/o3de/o3de-extras/issues/121#issuecomment-1428064276)
+2. Follow exactly the [ROS2 Project Template](https://github.com/o3de/o3de-extras/tree/development/Templates/Ros2ProjectTemplate) step 1 and step 2. Remember to synchronize the o3de-extra folders( (${O3DE_HOME}/Projects/o3de-extras)) as the (`964526be84c7d89184995fa60b72338a3e714090`), as referred in [this reply](https://github.com/o3de/o3de-extras/issues/121#issuecomment-1428064276)
 
 3. Clone the project
 ```
